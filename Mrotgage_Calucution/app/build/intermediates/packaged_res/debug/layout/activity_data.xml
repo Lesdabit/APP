@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DataActivity">
+
+    <TableRow
+        android:layout_width="410dp"
+        android:layout_height="88dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp" >
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="156dp"
+            android:layout_height="match_parent"
+            android:text="Years" />
+
+        <RadioGroup
+            android:layout_width="251dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+            <RadioButton
+                android:id="@+id/ten"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10" />
+            <RadioButton
+                android:id="@+id/fifteen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15" />
+            <RadioButton
+                android:id="@+id/thirty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="30" />
+        </RadioGroup>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="415dp"
+        android:layout_height="48dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="90dp">
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="157dp"
+            android:layout_height="match_parent"
+            android:text="Amount" />
+
+        <EditText
+            android:id="@+id/amount_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="20000.0" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="404dp"
+        android:layout_height="43dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="139dp">
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="157dp"
+            android:layout_height="42dp"
+            android:text="Interest Rate" />
+
+        <EditText
+            android:id="@+id/rate_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="0.01" />
+
+    </TableRow>
+</androidx.constraintlayout.widget.ConstraintLayout>
