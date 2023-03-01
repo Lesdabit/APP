@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:text="Lottery Choose Number"
+        android:textSize="28sp"
+        android:textColor="#fff"
+        android:background="#ff7474"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+    <ListView
+        android:id="@+id/List"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="75"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="Random Number"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:background="#ff7474"
+            android:layout_marginBottom="15sp"
+            android:layout_marginHorizontal="15sp"
+            android:onClick="lottery"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>
