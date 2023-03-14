@@ -7,28 +7,28 @@
     android:textAlignment="center"
     tools:context=".CalculateActivity">
 
+    <Button
+        android:id="@+id/back_bt"
+        android:layout_width="116dp"
+        android:layout_height="59dp"
+        android:onClick="goBack"
+        android:text="back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resultTV"
+        app:layout_constraintVertical_bias="0.5" />
+
     <TextView
         android:id="@+id/resultTV"
         android:layout_width="217dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="175dp"
-        android:layout_marginBottom="101dp"
-        android:text="LCM=42"
+        android:layout_height="59dp"
         android:textAlignment="center"
         android:textSize="48sp"
         app:layout_constraintBottom_toTopOf="@+id/back_bt"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/back_bt"
-        android:layout_width="116dp"
-        android:layout_height="56dp"
-        android:layout_marginBottom="338dp"
-        android:text="back"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/resultTV" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.622" />
 </androidx.constraintlayout.widget.ConstraintLayout>
