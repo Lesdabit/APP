@@ -12,9 +12,12 @@ import android.os.Bundle;
 import android.util.Log;
 import android.widget.ImageView;
 import android.Manifest;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLConnection;
@@ -56,14 +59,17 @@ public class MainActivity extends AppCompatActivity {
         if(ContextCompat.checkSelfPermission(this, Manifest.permission.INTERNET) != PackageManager.PERMISSION_GRANTED) {
             ActivityCompat.requestPermissions(this, new String[] {Manifest.permission.INTERNET}, REQUEST_INTERNET);
         } else {
-            new DownloadImageTask().execute("https://images.app.goo.gl/HKpWvYy9z9uiZkWNA");
+            new DownloadImageTask().execute("https://www.freepngimg.com/thumb/butterfly/14-butterfly-png-image.png");
+            new DownloadTextTask().execute("https://filesamples.com/samples/document/txt/sample3.txt");
         }
     }
 
     private class DownloadImageTask extends AsyncTask<String, Void, Bitmap> {
 
         @Override
-        protected Bitmap doInBackground(String... urls) {return DownloadImage(urls[0]);}
+        protected Bitmap doInBackground(String... urls) {
+            return DownloadImage(urls[0]);
+        }
         protected void onPostExecute(Bitmap result) {
             ImageView img = (ImageView) findViewById(R.id.imageView);
             img.setImageBitmap(result);
@@ -80,6 +86,47 @@ public class MainActivity extends AppCompatActivity {
                 Log.d("NetworkingActivity", e.getLocalizedMessage());
             }
             return bitmap;
+        }
+    }
+
+    private class DownloadTextTask extends AsyncTask<String, Void, String> implements com.example.a230315_ex3_downloadingimage.DownloadTextTask {
+        @Override
+        protected String doInBackground(String... urls) {return DownloadText(urls[0]);}
+        @Override
+        protected void onPostExecute(String result) {
+            TextView TV = (TextView) findViewById(R.id.textView);
+            TV.setText(result);
+            Log.d("result", result);
+        }
+
+        private String DownloadText(String URL) {
+            int BUFFER_SIZE = 2000;
+            InputStream in=null;
+
+            try {
+                in = OpenHttpConnection(URL);
+            } catch (IOException e) {
+                Log.d("Networking", e.getLocalizedMessage());
+                return "";
+            }
+
+            InputStreamReader isr = new InputStreamReader(in);
+            int charRead;
+            String str = "";
+            char[] inputBuffer = new char[BUFFER_SIZE];
+
+            try {
+                while((charRead = isr.read(inputBuffer)) > 0) {
+                    String readString = String.copyValueOf(inputBuffer, 0, charRead);
+                    str += readString;
+                    inputBuffer = new char[BUFFER_SIZE];
+                }
+                in.close();
+            } catch (Exception e) {
+                Log.d("Networking", e.getLocalizedMessage());
+                return "";
+            }
+            return str;
         }
     }
 }
