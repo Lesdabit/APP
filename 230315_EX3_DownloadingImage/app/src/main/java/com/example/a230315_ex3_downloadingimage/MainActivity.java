@@ -11,6 +11,7 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.ImageView;
+import android.Manifest;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -19,6 +20,7 @@ import java.net.URL;
 import java.net.URLConnection;
 
 public class MainActivity extends AppCompatActivity {
+    private static final int REQUEST_INTERNET = 1;
     private InputStream OpenHttpConnection(String urlString) throws IOException {
         InputStream in = null;
         int response = -1;
@@ -37,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
             response = httpConn.getResponseCode();
             if(response == HttpURLConnection.HTTP_OK) {
                 in = httpConn.getInputStream();
+                Log.d("DownloadImageTask", "OpenHttpConnection succeeded");
             }
         } catch (Exception e) {
             Log.d("Networking", e.getLocalizedMessage());
@@ -53,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
         if(ContextCompat.checkSelfPermission(this, Manifest.permission.INTERNET) != PackageManager.PERMISSION_GRANTED) {
             ActivityCompat.requestPermissions(this, new String[] {Manifest.permission.INTERNET}, REQUEST_INTERNET);
         } else {
-            new DownloadImageTask().execute("https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+            new DownloadImageTask().execute("https://images.app.goo.gl/HKpWvYy9z9uiZkWNA");
         }
     }
 
