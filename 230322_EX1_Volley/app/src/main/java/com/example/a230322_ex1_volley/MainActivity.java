@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
     private EditText ET;
     private RequestQueue mRequestQueue;
     private StringRequest mStringRequest;
-    private String url = "https://www.google.com/";
+    private String url = "https://web.cs.wpi.edu/~cs1004/a16/Resources/SacramentoRealEstateTransactions.csv";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -77,17 +77,22 @@ public class MainActivity extends AppCompatActivity {
 
     private void parsing_csvFile() {
         try {
-            File file = getBaseContext().getFileStreamPath("out.csv");
-            FileInputStream fstream = new FileInputStream(file);
-            DataInputStream in = new DataInputStream(fstream);
+            File file = getBaseContext().getFileStreamPath("Result.txt");
+            FileInputStream stream = new FileInputStream(file);
+            DataInputStream in = new DataInputStream(stream);
             BufferedReader br = new BufferedReader(new InputStreamReader(in));
             String line = "";
+            int i = 0;
 
             while((line = br.readLine()) != null) {
                 String[] apartment = line.split(",");
                 TextView TV = (TextView) findViewById(R.id.textView);
-                TV.setText("street=" + apartment[0] + ", city=" + apartment[1] + ", size=" + apartment[2] +
-                        ", state=" + apartment[3] + ", beds=" + apartment[4]);
+                if(i == 1) {
+                    String cat = new String("street=" + apartment[0] + ", city=" + apartment[1] + ", zip=" + apartment[2] +
+                            ", state=" + apartment[3] + ", beds=" + apartment[4]);
+                    TV.setText(cat);
+                }
+                i++;
             }
         } catch (IOException e) {
             throw new RuntimeException(e);
