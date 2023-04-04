@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
                 } else {
                     Log.d("Page++", "Successful");
                     p++;
-                    page.setText(String.valueOf(p) + "/" + String.valueOf((csv.size()/3/12)+1));
+                    page.setText(String.valueOf(p) + "/" + String.valueOf((csv.size()/3)+1));
                     setText(p);
                 }
             }
@@ -108,7 +108,7 @@ public class MainActivity extends AppCompatActivity {
                 } else {
                     Log.d("Page--", "Successful");
                     p--;
-                    page.setText(String.valueOf(p) + "/" + String.valueOf((csv.size()/3/12)+1));
+                    page.setText(String.valueOf(p) + "/" + String.valueOf((csv.size()/3)+1));
                     setText(p);
                 }
             }
@@ -162,8 +162,7 @@ public class MainActivity extends AppCompatActivity {
                 csv.get(i).add(apartment[9]);
                 i++;
             }
-            page.setText("1/" + String.valueOf((csv.size()/3/12)+1));
-            System.out.println((csv.size()/3)+1);
+            page.setText("1/" + String.valueOf((csv.size()/3)+1));
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
