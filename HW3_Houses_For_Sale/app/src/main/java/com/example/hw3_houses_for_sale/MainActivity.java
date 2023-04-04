@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -36,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
     private RequestQueue mRequestQueue;
     private StringRequest mStringRequest;
     private ArrayList<ArrayList<String>> csv = new ArrayList<ArrayList<String>>();
-    @Override
+        @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
@@ -48,6 +49,18 @@ public class MainActivity extends AppCompatActivity {
         TV[0][1].setText("Address");
         TV[0][2].setText("Size");
         TV[0][3].setText("Price");
+        TV[1][0] = (TextView) findViewById(R.id.textView21);
+        TV[1][1] = (TextView) findViewById(R.id.textView22);
+        TV[1][2] = (TextView) findViewById(R.id.textView23);
+        TV[1][3] = (TextView) findViewById(R.id.textView24);
+        TV[2][0] = (TextView) findViewById(R.id.textView31);
+        TV[2][1] = (TextView) findViewById(R.id.textView32);
+        TV[2][2] = (TextView) findViewById(R.id.textView33);
+        TV[2][3] = (TextView) findViewById(R.id.textView34);
+        TV[3][0] = (TextView) findViewById(R.id.textView41);
+        TV[3][1] = (TextView) findViewById(R.id.textView42);
+        TV[3][2] = (TextView) findViewById(R.id.textView43);
+        TV[3][3] = (TextView) findViewById(R.id.textView44);
 
         page = (TextView) findViewById(R.id.page_tv);
         page.setText("1");
@@ -56,7 +69,9 @@ public class MainActivity extends AppCompatActivity {
         ENT.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                csv.clear();
                 ET = (EditText) findViewById(R.id.web_et);
+                ET.setText("https://web.cs.wpi.edu/~cs1004/a16/Resources/SacramentoRealEstateTransactions.csv");
                 url = ET.getText().toString();
                 if(url.matches(""))
                     Toast.makeText(MainActivity.this, "URL is empty", Toast.LENGTH_SHORT).show();
@@ -69,12 +84,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String p_s = page.getText().toString();
-                int p = Integer.parseInt(p_s);
-                if(p == csv.size()/12/3+1) {
+                String[] p_ss = p_s.split("/");
+                int p = Integer.parseInt(p_ss[0]);
+                if(p == csv.size()/3+1) {
                     Toast.makeText(MainActivity.this, "This is the last page", Toast.LENGTH_SHORT).show();
                 } else {
+                    Log.d("Page++", "Successful");
                     p++;
-                    page.setText(p);
+                    page.setText(String.valueOf(p) + "/" + String.valueOf((csv.size()/3/12)+1));
+                    setText(p);
                 }
             }
         });
@@ -83,12 +101,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String p_s = page.getText().toString();
-                int p = Integer.parseInt(p_s);
+                String[] p_ss = p_s.split("/");
+                int p = Integer.parseInt(p_ss[0]);
                 if(p == 1) {
                     Toast.makeText(MainActivity.this, "This is the first page", Toast.LENGTH_SHORT).show();
                 } else {
+                    Log.d("Page--", "Successful");
                     p--;
-                    page.setText(p);
+                    page.setText(String.valueOf(p) + "/" + String.valueOf((csv.size()/3/12)+1));
+                    setText(p);
                 }
             }
         });
@@ -104,6 +125,7 @@ public class MainActivity extends AppCompatActivity {
                     outfile.write(response.getBytes(StandardCharsets.UTF_8));
                     outfile.close();
                     parsing_file();
+                    setText(1);
                 } catch (IOException e) {
                     throw new RuntimeException();
                 }
@@ -111,28 +133,13 @@ public class MainActivity extends AppCompatActivity {
         }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {
-
+                Log.i("Response", "Error :" + error.toString());
             }
         });
         mRequestQueue.add(mStringRequest);
     }
 
     private void parsing_file() {
-        TV[1][1] = (TextView) findViewById(R.id.textView21);
-        TV[1][2] = (TextView) findViewById(R.id.textView22);
-        TV[1][3] = (TextView) findViewById(R.id.textView23);
-        TV[1][4] = (TextView) findViewById(R.id.textView24);
-        TV[2][1] = (TextView) findViewById(R.id.textView31);
-        TV[2][2] = (TextView) findViewById(R.id.textView32);
-        TV[2][3] = (TextView) findViewById(R.id.textView33);
-        TV[2][4] = (TextView) findViewById(R.id.textView34);
-        TV[3][1] = (TextView) findViewById(R.id.textView41);
-        TV[3][2] = (TextView) findViewById(R.id.textView42);
-        TV[3][3] = (TextView) findViewById(R.id.textView43);
-        TV[3][4] = (TextView) findViewById(R.id.textView44);
-
-        ArrayList<String> store = new ArrayList<String>();
-
         int i = 0;
         try {
             File file = getBaseContext().getFileStreamPath("Result.txt");
@@ -140,32 +147,43 @@ public class MainActivity extends AppCompatActivity {
             DataInputStream in = new DataInputStream(stream);
             BufferedReader br = new BufferedReader(new InputStreamReader(in));
             String line;
+            br.readLine();
 
             while((line = br.readLine()) != null) {
                 String[] apartment = line.split(",");
-                if(i == 1) {
-                    for(int j = 0; j < 12; j++) {
-                        store.clear();
-                        if(j == 0) store.add(apartment[0]);
-                        else if(j == 1) store.add(apartment[1]);
-                        else if(j == 2) store.add(apartment[2]);
-                        else if(j == 3) store.add(apartment[3]);
-                        else if(j == 4) store.add(apartment[4]);
-                        else if(j == 5) store.add(apartment[5]);
-                        else if(j == 9) store.add(apartment[9]);
-                        csv.add(store);
-                    }
-                }
+                csv.add(new ArrayList<>());
+                csv.get(i).add(apartment[0]);
+                csv.get(i).add(apartment[1]);
+                csv.get(i).add(apartment[2]);
+                csv.get(i).add(apartment[3]);
+                csv.get(i).add(apartment[4]);
+                csv.get(i).add(apartment[5]);
+                csv.get(i).add(apartment[6]);
+                csv.get(i).add(apartment[9]);
                 i++;
             }
-
-            for(int j = 0; j < csv.size()/12/3; j++) {
-                TV[j%3+1][0].setText(j+1);
-                TV[j%3+1][1].setText(csv.get(j).get(0) + ", " +csv.get(j).get(1) + ", " + csv.get(j).get(2) + ", " + csv.get(j).get(3));
-                TV[j%3+2][2].setText(csv.get(j).get(4) + " bed, " + csv.get(j).get(1) + );
-            }
+            page.setText("1/" + String.valueOf((csv.size()/3/12)+1));
+            System.out.println((csv.size()/3)+1);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+    }
+
+    private void setText(int p) {
+        int j = 3*(p-1);
+        TV[1][0].setText(Integer.toString(j+1));
+        TV[1][1].setText(csv.get(j).get(0) + "\n, " +csv.get(j).get(1) + ", " + csv.get(j).get(2) + ", " + csv.get(j).get(3));
+        TV[1][2].setText(csv.get(j).get(4) + " bed, " + csv.get(j).get(5) + " bath, \n" + csv.get(j).get(6) + " sqft");
+        TV[1][3].setText("$" + csv.get(j).get(7));
+        j++;
+        TV[2][0].setText(Integer.toString(j+1));
+        TV[2][1].setText(csv.get(j).get(0) + "\n, " +csv.get(j).get(1) + ", " + csv.get(j).get(2) + ", " + csv.get(j).get(3));
+        TV[2][2].setText(csv.get(j).get(4) + " bed, " + csv.get(j).get(5) + " bath, \n" + csv.get(j).get(6) + " sqft");
+        TV[2][3].setText("$" + csv.get(j).get(7));
+        j++;
+        TV[3][0].setText(Integer.toString(j+1));
+        TV[3][1].setText(csv.get(j).get(0) + "\n, " +csv.get(j).get(1) + ", " + csv.get(j).get(2) + ", " + csv.get(j).get(3));
+        TV[3][2].setText(csv.get(j).get(4) + " bed, " + csv.get(j).get(5) + " bath, \n" + csv.get(j).get(6) + " sqft");
+        TV[3][3].setText("$" + csv.get(j).get(7));
     }
 }
