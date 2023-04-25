@@ -23,7 +23,6 @@ public class Client extends javax.swing.JFrame {
     private Client window;
     private int port = 2345;
     private String host;
-    private int i = 0;
     
     /**
      * Creates new form MyGUI
@@ -147,7 +146,6 @@ public class Client extends javax.swing.JFrame {
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
         jButton2.setEnabled(false);
-        i++;
         client = new RunClient(window, host, port);
         client.start();
     }//GEN-LAST:event_jButton2ActionPerformed

@@ -44,10 +44,6 @@ public class Server extends javax.swing.JFrame {
             server_socket = new ServerSocket(port);
         }
         
-        public int getCurrentNo() {
-            return No;
-        }
-        
         synchronized int getNo() {
             return ++No;
         }
@@ -60,7 +56,7 @@ public class Server extends javax.swing.JFrame {
                     socket = server_socket.accept();
                     int Id = getNo();
                     window.jTextArea1.append(("Client " + Id + " connected \n"));
-                    new Handle_Computing(socket, this).start();
+                    new Handle_Computing(socket, this, Id).start();
                 } catch(IOException e) {
                     Logger.getLogger(RunServer.class.getName()).log(Level.SEVERE, null, e);
                 }
@@ -75,10 +71,12 @@ public class Server extends javax.swing.JFrame {
     public class Handle_Computing extends Thread {
         private Socket socket;
         private RunServer server;
+        private int Id;
         
-        public Handle_Computing(Socket socket, RunServer server) {
+        public Handle_Computing(Socket socket, RunServer server, int Id) {
             this.socket = socket;
             this.server = server;
+            this.Id = Id;
         }
         
         public void run() {
@@ -97,7 +95,7 @@ public class Server extends javax.swing.JFrame {
                         boolean isNumeric_0 =  message_s[0].matches("[+-]?\\d*(\\.\\d+)?");
                         boolean isNumeric_1 =  message_s[1].matches("[+-]?\\d*(\\.\\d+)?");
                         if(!isNumeric_0 || !isNumeric_1) {
-                            server.getWindow().jTextArea1.append("Client " + server.getCurrentNo() + " Error, one of the input is not a number\n");
+                            server.getWindow().jTextArea1.append("Client " + Id + " Error, one of the input is not a number\n");
                             output.println("The result: Error ! Can not calculate ! Please enter again" );
                         } else {
                             double a = Double.parseDouble(message_s[0]);
@@ -133,16 +131,16 @@ public class Server extends javax.swing.JFrame {
                             message = new String(message_s[0] + " " + message_s[2] + " " + message_s[1]);
 
                             if(can) {
-                                server.getWindow().jTextArea1.append("Client " + server.getCurrentNo() + " sent: " + message + "\n");
+                                server.getWindow().jTextArea1.append("Client " + Id + " sent: " + message + "\n");
                                 output.println("The result: " + message + " = " + result);
                             } else {
-                                server.getWindow().jTextArea1.append("Client " + server.getCurrentNo() + " Error, number b is 0\n");
+                                server.getWindow().jTextArea1.append("Client " + Id + " Error, number b is 0\n");
                                 output.println("The result: Error ! Can not calculate ! Please enter again" );
                             }
                         }
                         
                     } else {
-                        server.getWindow().jTextArea1.append("Client " + server.getCurrentNo() + " sent: " + message + "\n");
+                        server.getWindow().jTextArea1.append("Client " + Id + " sent: " + message + "\n");
                         output.println("Echo back your message: " + message);
                     }
                 } while(!message.equals("CLOSE"));
