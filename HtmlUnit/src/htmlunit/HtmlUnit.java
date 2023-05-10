@@ -54,17 +54,31 @@ public class HtmlUnit {
         int i;
         FileWriter fw1 = new FileWriter("out.txt");
         FileWriter fw2 = new FileWriter("select.txt");
+        FileWriter fw3 = new FileWriter("name.txt");
+        FileWriter fw4 = new FileWriter("price.txt");
+        FileWriter fw5 = new FileWriter("link.txt");
         org.jsoup.nodes.Document document = Jsoup.parse(content);
         fw1.write(document.toString());
-        fw1.close();
+        fw1.close();    
+        Elements items = (Elements) document.select("#ItemContainer dl");
+        System.out.println("line " + 0 + ": " + items.get(0).toString() + "\n");
         try {
-            Elements items = (Elements) document.select("#ItemContainer dl");
-            for(Element item : items) {
-                fw2.append("line" + i + ": " + item.toString() + "\n");
+            for(i = 0; i < items.size(); i++) {
+                fw2.write("line " + i + ": " + items.get(i).toString() + "\n");
+                Element item = items.get(i);
+                String name = item.select(".prod_name").first().text();
+                fw3.write(name + "\n");
+                String price = item.select(".price").text();
+                fw4.write(price + "\n");
+                String link = item.select(".prod_name > a").attr("href");
+                fw5.write(link + "\n");
             }
-        } catch (IOException e) {
-            
+        } catch (NullPointerException e) {
+            System.out.println();
         }
         fw2.close();
+        fw3.close();
+        fw4.close();
+        fw5.close();
     }
 }
