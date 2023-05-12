@@ -4,52 +4,29 @@
  */
 package shoppingparsing;
 
+import com.gargoylesoftware.htmlunit.BrowserVersion;
+import com.gargoylesoftware.htmlunit.WebClient;
+import com.gargoylesoftware.htmlunit.html.HtmlPage;
+import java.io.FileWriter;
 import java.io.IOException;
-import java.net.ServerSocket;
-import java.net.Socket;
+import java.lang.Thread;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import org.jsoup.nodes.Document;
+import org.jsoup.Jsoup;
 
 /**
  *
  * @author lesdabit
  */
-public class main extends javax.swing.JFrame {
-    private final int port = 2345;
+public class shoppingparsing extends javax.swing.JFrame {
     /**
      * Creates new form main
      */
-    public main() {
+    public shoppingparsing() {
         initComponents();
-        String content_pchome = loadAndExecuteJs(pchome_url);
-        String content_momo = loadAndExecuteJs(momo_url);
     }
     
-    public class RunServer extends Thread {
-        private ServerSocket server_socket;
-        public String pchome_url;
-        public String momo_url;
-        private int port;
-        
-        public RunServer(int port, String pchome_url, String momo_url) throws IOException {
-            this.port = port;
-            this.pchome_url = pchome_url;
-            this.momo_url = momo_url;
-            server_socket = new ServerSocket(port);
-        }
-        
-        public void run() {
-            Socket socket;
-            while(true) {
-                try {
-                    socket = server_socket.accept();
-                } catch(IOException e) {
-                    Logger.getLogger(RunServer.class.getName()).log(Level.SEVERE, null, e);
-                }
-            }
-        }
-        
-    }
 
     /**
      * This method is called from within the constructor to initialize the form.
@@ -146,13 +123,70 @@ public class main extends javax.swing.JFrame {
         String item = item_et.getText();
         String pchome_url = "https://ecshweb.pchome.com.tw/search/v3.3/?q=" + item;
         String momo_url = "https://www.momoshop.com.tw/search/searchShop.jsp?keyword=" + item;
+        Thread thr_pchome = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    String content = loadAndExecuteJs(pchome_url);
+                    show_tv.append(content);
+                    if(content != null) {
+                        parsing(content);
+                    }
+                } catch (IOException ex) {
+                    Logger.getLogger(shoppingparsing.class.getName()).log(Level.SEVERE, null, ex);
+                }
+            }
+            
+            private static void parsing(String content) throws IOException {
+                FileWriter fw1 = new FileWriter("out_pchome.txt");
+                Document document = (Document) Jsoup.parse(content);
+                fw1.write(document.toString());
+                fw1.close();
+            }
+        });
+        Thread thr_momo = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    String content = loadAndExecuteJs(momo_url);
+                    show_tv.append(content);
+                    if(content != null) {
+                        parsing(content);
+                    }
+                } catch (IOException ex) {
+                    Logger.getLogger(shoppingparsing.class.getName()).log(Level.SEVERE, null, ex);
+                }
+            }
+            
+            private static void parsing(String content) throws IOException {
+                FileWriter fw1 = new FileWriter("out_momo.txt");
+                Document document = (Document) Jsoup.parse(content);
+                fw1.write(document.toString());
+                fw1.close();
+            }
+        });
+        thr_pchome.start();
         try {
-            new RunServer(port, pchome_url, momo_url).start();
-        } catch (IOException ex){
-            Logger.getLogger(main.class.getName()).log(Level.SEVERE, null, ex);
+            thr_pchome.join();
+        } catch (InterruptedException ex) {
+            Logger.getLogger(shoppingparsing.class.getName()).log(Level.SEVERE, null, ex);
         }
+        thr_momo.start();
     }//GEN-LAST:event_search_btActionPerformed
-
+    private static String loadAndExecuteJs(String url) throws IOException {
+        WebClient webClient = new WebClient(BrowserVersion.CHROME);
+        webClient.getOptions().setCssEnabled(false);
+        webClient.getOptions().setJavaScriptEnabled(true);
+        webClient.getOptions().setThrowExceptionOnScriptError(false);
+        webClient.getOptions().setTimeout(1000);
+        webClient.getOptions().setUseInsecureSSL(true);
+        HtmlPage page = webClient.getPage(url);
+        webClient.getCurrentWindow().setInnerHeight(3000);
+        webClient.waitForBackgroundJavaScript(5000);
+        String html = page.asXml();
+        webClient.close();
+        return html;
+    }
     
     /**
      * @param args the command line arguments
@@ -171,23 +205,25 @@ public class main extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(main.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(shoppingparsing.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(main.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(shoppingparsing.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(main.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(shoppingparsing.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(main.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(shoppingparsing.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
+
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
+            @Override
             public void run() {
-                new main().setVisible(true);
+                new shoppingparsing().setVisible(true);
             }
         });
-        
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
@@ -200,6 +236,7 @@ public class main extends javax.swing.JFrame {
     private javax.swing.JButton search_bt;
     private javax.swing.JTextArea show_tv;
     // End of variables declaration//GEN-END:variables
+
 
 }
 

@@ -82,7 +82,7 @@ public class Server extends javax.swing.JFrame {
         public void run() {
             Scanner input = null;
             PrintWriter output = null;
-            
+                
             try {
                 input = new Scanner(socket.getInputStream());
                 output = new PrintWriter(socket.getOutputStream(), true);
