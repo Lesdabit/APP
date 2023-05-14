@@ -7,19 +7,64 @@ package shoppingparsing;
 import com.gargoylesoftware.htmlunit.BrowserVersion;
 import com.gargoylesoftware.htmlunit.WebClient;
 import com.gargoylesoftware.htmlunit.html.HtmlPage;
+import java.awt.Component;
+import java.awt.Container;
+import java.awt.Cursor;
+import java.awt.Dimension;
+import java.awt.FlowLayout;
+import java.awt.Font;
+import java.awt.Frame;
+import java.awt.Image;
+import java.awt.Point;
+import java.awt.Rectangle;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+import java.awt.image.BufferedImage;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.lang.Thread;
+import java.net.MalformedURLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import javax.imageio.ImageIO;
+import javax.swing.BoxLayout;
+import javax.swing.ImageIcon;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import org.jsoup.select.Elements;
 import org.jsoup.nodes.Document;
 import org.jsoup.Jsoup;
+import org.jsoup.nodes.Element;
+import java.net.URL;
+import javax.swing.JInternalFrame;
+import javax.swing.JScrollPane;
+import javax.swing.JTextArea;
+import javax.swing.JViewport;
+import javax.swing.SwingUtilities;
 
 /**
  *
  * @author lesdabit
  */
 public class shoppingparsing extends javax.swing.JFrame {
+    class product {
+        String name;
+        String img;
+        String link;
+        int price;
+        public product(String name, String img, String link, int price) {
+            this.name = name;
+            this.img = img;
+            this.link = link;
+            this.price = price;
+        }
+    }
+    public static product[] pchome;
+    public static product[] momo;
+    public static product[] prod_total = new product[50];
     /**
      * Creates new form main
      */
@@ -43,8 +88,10 @@ public class shoppingparsing extends javax.swing.JFrame {
         item_et = new javax.swing.JTextField();
         jLabel1 = new javax.swing.JLabel();
         search_bt = new javax.swing.JButton();
-        jScrollPane1 = new javax.swing.JScrollPane();
-        show_tv = new javax.swing.JTextArea();
+        jPanel2 = new javax.swing.JPanel();
+        page_num = new javax.swing.JLabel();
+        next_bt = new javax.swing.JButton();
+        back_bt = new javax.swing.JButton();
 
         jTextArea1.setColumns(20);
         jTextArea1.setRows(5);
@@ -79,7 +126,7 @@ public class shoppingparsing extends javax.swing.JFrame {
                 .addComponent(item_et, javax.swing.GroupLayout.PREFERRED_SIZE, 259, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(search_bt, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(116, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -89,25 +136,57 @@ public class shoppingparsing extends javax.swing.JFrame {
                 .addComponent(search_bt, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
-        show_tv.setEditable(false);
-        show_tv.setColumns(20);
-        show_tv.setRows(5);
-        jScrollPane1.setViewportView(show_tv);
+        page_num.setText("1/3");
+
+        next_bt.setText("Next");
+        next_bt.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                next_btActionPerformed(evt);
+            }
+        });
+
+        back_bt.setText("Back");
+        back_bt.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                back_btActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
+        jPanel2.setLayout(jPanel2Layout);
+        jPanel2Layout.setHorizontalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addGap(179, 179, 179)
+                .addComponent(back_bt)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(page_num)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(next_bt)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        jPanel2Layout.setVerticalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addComponent(page_num)
+                .addComponent(next_bt)
+                .addComponent(back_bt))
+        );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addComponent(jScrollPane1)
+            .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 382, Short.MAX_VALUE)
-                .addContainerGap())
+                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(631, Short.MAX_VALUE))
         );
 
         pack();
@@ -128,7 +207,6 @@ public class shoppingparsing extends javax.swing.JFrame {
             public void run() {
                 try {
                     String content = loadAndExecuteJs(pchome_url);
-                    show_tv.append(content);
                     if(content != null) {
                         parsing(content);
                     }
@@ -137,11 +215,30 @@ public class shoppingparsing extends javax.swing.JFrame {
                 }
             }
             
-            private static void parsing(String content) throws IOException {
+            private void parsing(String content) throws IOException {
                 FileWriter fw1 = new FileWriter("out_pchome.txt");
+                FileWriter fw2 = new FileWriter("pchome_prod.txt");
                 Document document = (Document) Jsoup.parse(content);
                 fw1.write(document.toString());
                 fw1.close();
+                int i = 0;
+                Elements items = (Elements) document.select("#ItemContainer dl");
+                try {
+                    pchome = new product[items.size()-1];
+                    for(i = 1; i < items.size(); i++) {
+                        Element item = items.get(i);
+                        String name = item.select(".prod_name").text();
+                        String img = item.select(".prod_img > img").attr("src");
+                        String link = item.select(".prod_name > a").attr("href");
+                        String price = item.select(".price").text();
+                        fw2.write("Product " + (i) + ": \n" + "Name: " + name + "\nimage: " + img + "\nlink: " + link + "\nprice: "  + price + "\n");
+                        String[] price_s = price.split(" ");
+                        pchome[i-1] = new product(name, ("https:"+img), link, Integer.parseInt(price_s[1]));
+                    }
+                } catch (NullPointerException e) {
+                    System.out.println();
+                }
+                fw2.close();
             }
         });
         Thread thr_momo = new Thread(new Runnable() {
@@ -149,7 +246,6 @@ public class shoppingparsing extends javax.swing.JFrame {
             public void run() {
                 try {
                     String content = loadAndExecuteJs(momo_url);
-                    show_tv.append(content);
                     if(content != null) {
                         parsing(content);
                     }
@@ -158,21 +254,106 @@ public class shoppingparsing extends javax.swing.JFrame {
                 }
             }
             
-            private static void parsing(String content) throws IOException {
+            private void parsing(String content) throws IOException {
                 FileWriter fw1 = new FileWriter("out_momo.txt");
+                FileWriter fw2 = new FileWriter("momo_prod.txt");
                 Document document = (Document) Jsoup.parse(content);
                 fw1.write(document.toString());
                 fw1.close();
+                int i = 0;
+                Elements items = (Elements) document.select(".listArea li");
+                try {
+                    momo = new product[items.size()];
+                    for(i = 0; i < items.size(); i++) {
+                        Element item = items.get(i);
+                        String name = item.select(".prdNameTitle").text();
+                        String img = item.select(".swiper-slide > img").attr("src");
+                        String link_select = item.select(".goodsUrl").attr("href");
+                        String link = "https://www.momoshop.com.tw/" + link_select;
+                        String price = item.select(".price").text();
+                        fw2.write("Product " + (i+1) + ": \n" + "Name: " + name + "\nimage: " + img + "\nlink: " + link + "\nprice: "  + price + "\n");
+                        String[] price_s = price.split("[\\s,]");
+                        momo[i] = new product(name, img, link, Integer.parseInt(price_s[1]+price_s[2]));
+                    }
+                } catch (NullPointerException e) {
+                    System.out.println();
+                }
+                fw2.close();
             }
         });
+        thr_pchome.setName("pchome");
         thr_pchome.start();
         try {
             thr_pchome.join();
         } catch (InterruptedException ex) {
             Logger.getLogger(shoppingparsing.class.getName()).log(Level.SEVERE, null, ex);
         }
+        
+        thr_momo.setName("momo");
         thr_momo.start();
+        try {
+            thr_momo.join();
+        } catch (InterruptedException ex) {
+            Logger.getLogger(shoppingparsing.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        
+        for(int i = 0; i < pchome.length; i++) prod_total[i] = pchome[i];
+        for(int i = 0; i < momo.length; i++) prod_total[i+pchome.length] = momo[i];  
+        for(int i = 0; i < prod_total.length - 1; i++) {
+            for(int j = 0; j < prod_total.length - 1 - i; j++) {
+                if(prod_total[j].price > prod_total[j+1].price) {
+                    product temp = prod_total[j];
+                    prod_total[j] = prod_total[j+1];
+                    prod_total[j+1] = temp;
+                }
+            }
+        }
+        try {
+            FileWriter fw = new FileWriter("total.txt");
+            for(int i = 0; i < 30; i++) {
+                fw.write("Product " + (i+1) + ": \n" + "Name: " + prod_total[i].name + "\nimage: " + prod_total[i].img + "\nlink: " + prod_total[i].link + "\nprice: "  + prod_total[i].price + "\n");
+            } 
+            fw.close();
+        } catch (IOException ex) {
+            Logger.getLogger(shoppingparsing.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        
+        try {
+            showInfo(prod_total, 1);
+        } catch (IOException ex) {
+            Logger.getLogger(shoppingparsing.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }//GEN-LAST:event_search_btActionPerformed
+
+    private void next_btActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_next_btActionPerformed
+        // TODO add your handling code here:
+//        String num_s = page_num.getText();
+//        String[] num_ss = num_s.split("/");
+//        int page = Integer.parseInt(num_ss[0]);
+//        if(page < 3) {
+//            page_num.setText(Integer.toString(page) + "/3");
+//            try {
+//                showInfo(prod_total);
+//            } catch (IOException ex) {
+//                Logger.getLogger(shoppingparsing.class.getName()).log(Level.SEVERE, null, ex);
+//            }
+//        }
+    }//GEN-LAST:event_next_btActionPerformed
+
+    private void back_btActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_back_btActionPerformed
+        // TODO add your handling code here:
+//        String num_s = page_num.getText();
+//        String[] num_ss = num_s.split("/");
+//        int page = Integer.parseInt(num_ss[0]);
+//        if(page > 0) {
+//            page_num.setText(Integer.toString(page) + "/3");
+//            try {
+//                showInfo(prod_total);
+//            } catch (IOException ex) {
+//                Logger.getLogger(shoppingparsing.class.getName()).log(Level.SEVERE, null, ex);
+//            }
+//        }
+    }//GEN-LAST:event_back_btActionPerformed
     private static String loadAndExecuteJs(String url) throws IOException {
         WebClient webClient = new WebClient(BrowserVersion.CHROME);
         webClient.getOptions().setCssEnabled(false);
@@ -186,6 +367,86 @@ public class shoppingparsing extends javax.swing.JFrame {
         String html = page.asXml();
         webClient.close();
         return html;
+    }
+    
+    private void showInfo(product[] total, int start) throws MalformedURLException, IOException {
+        Component component = jPanel1;
+        JFrame rootFrame = (JFrame) SwingUtilities.getRoot(component);
+        rootFrame.setLayout(new BoxLayout(rootFrame.getContentPane(), BoxLayout.Y_AXIS));
+        Container content = rootFrame.getContentPane();
+        JPanel parentPanel = new JPanel();
+        parentPanel.setLayout(new BoxLayout(parentPanel, BoxLayout.Y_AXIS));
+        for(int i = (start-1)*10; i < (start-1)*10+10; i++) {
+            JPanel panel = new JPanel();
+            panel.setPreferredSize(new Dimension(150,150));
+            panel.setLayout(new FlowLayout(FlowLayout.LEFT));
+            
+            JLabel img_label;
+            URL url = new URL(total[i].img);
+            BufferedImage img = ImageIO.read(url);
+            Image image = img.getScaledInstance(150, 150, Image.SCALE_DEFAULT);
+            img_label = new JLabel(new ImageIcon(image));
+            
+            JPanel name_panel = new JPanel();
+            name_panel.setPreferredSize(new Dimension(400,150));
+            name_panel.setLayout(new FlowLayout(FlowLayout.LEFT));
+            JTextArea name = new JTextArea();
+            name.setEditable(false);
+            name.setLineWrap(true);
+            name.setWrapStyleWord(true);
+            name.setPreferredSize(new Dimension(400,150));
+            name.setText(total[i].name + "\n" + total[i].link + "\n" + "$" + Integer.toString(total[i].price) + "\n");
+            Font currentFont = name.getFont();
+            Font font = currentFont.deriveFont(16f);
+            name.setFont(font);
+            name.setCaretPosition(0);
+            name.scrollRectToVisible(new Rectangle(name.getSize()));
+            
+            panel.add(img_label);
+            name_panel.add(name);
+            
+            JPanel childrenPanel = new JPanel();
+            childrenPanel.setLayout(new FlowLayout(FlowLayout.LEFT));
+            childrenPanel.add(panel);
+            childrenPanel.add(name_panel);
+            parentPanel.add(childrenPanel);
+        }
+        JScrollPane jScrollPane1 = new JScrollPane(parentPanel);
+        jScrollPane1.setPreferredSize(new Dimension(550,600));
+        
+        content.add(jScrollPane1);
+        rootFrame.pack();
+        rootFrame.setVisible(true);
+        
+        next_bt.addActionListener((ActionEvent e) -> {
+            String num_s = page_num.getText();
+            String[] num_ss = num_s.split("/");
+            int page = Integer.parseInt(num_ss[0]);
+            if(page < 3) {
+                content.remove(jScrollPane1);
+                page_num.setText(Integer.toString(page+1) + "/3");
+                try {
+                    showInfo(prod_total, page+1);
+                } catch (IOException ex) {
+                    Logger.getLogger(shoppingparsing.class.getName()).log(Level.SEVERE, null, ex);
+                }
+            }
+        });
+        
+        back_bt.addActionListener((ActionEvent e) -> {
+            String num_s = page_num.getText();
+            String[] num_ss = num_s.split("/");
+            int page = Integer.parseInt(num_ss[0]);
+            if(page > 1) {
+                content.remove(jScrollPane1);
+                page_num.setText(Integer.toString(page-1) + "/3");
+                try {
+                    showInfo(prod_total, page-1);
+                } catch (IOException ex) {
+                    Logger.getLogger(shoppingparsing.class.getName()).log(Level.SEVERE, null, ex);
+                }
+            }
+        });
     }
     
     /**
@@ -227,14 +488,16 @@ public class shoppingparsing extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton back_bt;
     private javax.swing.JTextField item_et;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JPanel jPanel2;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JTextArea jTextArea1;
+    private javax.swing.JButton next_bt;
+    private javax.swing.JLabel page_num;
     private javax.swing.JButton search_bt;
-    private javax.swing.JTextArea show_tv;
     // End of variables declaration//GEN-END:variables
 
 

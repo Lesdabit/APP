@@ -1,14 +1,12 @@
-line 0: <dl class="col3f s_brand_site s_biotherm">
- <dd class="c1f">
-  <a class="brand_img loading" href="https://www.pchomeec.tw/cdn/sites/acer?brandsearch"> <img src="https://cs.ecimg.tw/img/search/v1/layout/3/20220902135438_560x560.jpg" alt=""> </a>
- </dd>
- <dd class="c2f">
-  <h5 class="brand_name"><a href="https://www.pchomeec.tw/cdn/sites/acer?brandsearch"> Acer 品牌旗艦館 </a></h5><span class="nick"> 點我看更多優惠 </span>
- </dd>
- <dd class="c3f">
-  <span class="brandbg"> </span>
-  <ul class="fieldset_box">
-   <li class="site_btn gobrand"><button> 立即前往 </button></li>
-  </ul>
- </dd>
+line 0: <dl class="col3f s_brand_site s_biotherm"> 
+ <dd class="c1f"> <a class="brand_img loading" href="https://www.pchomeec.tw/cdn/sites/acer?brandsearch"> <img src="https://cs.ecimg.tw/img/search/v1/layout/3/20220902135438_560x560.jpg" alt=""> </a> 
+ </dd> 
+ <dd class="c2f"> 
+  <h5 class="brand_name"> <a href="https://www.pchomeec.tw/cdn/sites/acer?brandsearch"> Acer 品牌旗艦館 </a> </h5> <span class="nick"> 點我看更多優惠 </span> 
+ </dd> 
+ <dd class="c3f"> <span class="brandbg"> </span> 
+  <ul class="fieldset_box"> 
+   <li class="site_btn gobrand"> <button> 立即前往 </button> </li> 
+  </ul> 
+ </dd> 
 </dl>
