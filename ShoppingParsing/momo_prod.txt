@@ -1,150 +1,150 @@
 Product 1: 
 Name: 【Acer 宏碁】15.6吋i7效能電競筆電(Aspire 7 A715-76-743C/i7-12650H/8G/512G SSD/W11)
-image: https://img1.momoshop.com.tw/goodsimg/0010/491/389/10491389_O.webp?t=1683912383
+image: https://img4.momoshop.com.tw/goodsimg/0010/491/389/10491389_O.webp?t=1683912383
 link: https://www.momoshop.com.tw//goods/GoodsDetail.jsp?i_code=10491389&Area=search&mdiv=403&oid=1_1&cid=index&kw=acer
 price: $ 23,900
 Product 2: 
 Name: 【Acer 宏碁】14吋超值輕薄窄邊框筆電(Swift 1 SF114-34/N5100/8G/256G SSD/W11)
-image: https://img1.momoshop.com.tw/goodsimg/0010/138/660/10138660_O.webp?t=1679369716
+image: https://img4.momoshop.com.tw/goodsimg/0010/138/660/10138660_O.webp?t=1679369716
 link: https://www.momoshop.com.tw//goods/GoodsDetail.jsp?i_code=10138660&Area=search&mdiv=403&oid=1_2&cid=index&kw=acer
 price: $ 14,900
 Product 3: 
 Name: 【Acer 宏碁】14吋R5獨顯美型輕薄筆電(Swift X SFX14-41G/R5-5600U/16G/512G SSD/RTX3050/W11)
-image: https://img1.momoshop.com.tw/goodsimg/0010/024/599/10024599_O.webp?t=1678804419
+image: https://img4.momoshop.com.tw/goodsimg/0010/024/599/10024599_O.webp?t=1678804419
 link: https://www.momoshop.com.tw//goods/GoodsDetail.jsp?i_code=10024599&Area=search&mdiv=403&oid=1_3&cid=index&kw=acer
 price: $ 23,900
 Product 4: 
 Name: 【Acer 宏碁】15吋i5超值文書筆電(Aspire 3 A315-59-59UD/i5-1235U/8G/512G SSD/W11)
-image: https://img1.momoshop.com.tw/goodsimg/0010/236/935/10236935_O.webp?t=1678847183
+image: https://img4.momoshop.com.tw/goodsimg/0010/236/935/10236935_O.webp?t=1678847183
 link: https://www.momoshop.com.tw//goods/GoodsDetail.jsp?i_code=10236935&Area=search&mdiv=403&oid=1_4&cid=index&kw=acer
 price: $ 16,900
 Product 5: 
-Name: 【Acer 宏碁】14吋i5輕薄長效EVO筆電(Swift 3 SF314-511/i5-1135G7/16G/512G SSD/W11)
-image: https://img1.momoshop.com.tw/goodsimg/0011/184/867/11184867_O.webp?t=1683124328
-link: https://www.momoshop.com.tw//goods/GoodsDetail.jsp?i_code=11184867&Area=search&mdiv=403&oid=1_5&cid=index&kw=acer
-price: $ 19,900
-Product 6: 
 Name: 【Acer 宏碁】14吋i5輕薄效能筆電(Aspire 5 A514-55/i5-1235U/8G/512G SSD/W11)
-image: https://img1.momoshop.com.tw/goodsimg/0010/138/666/10138666_O.webp?t=1678843689
-link: https://www.momoshop.com.tw//goods/GoodsDetail.jsp?i_code=10138666&Area=search&mdiv=403&oid=1_6&cid=index&kw=acer
+image: https://img4.momoshop.com.tw/goodsimg/0010/138/666/10138666_O.webp?t=1678843689
+link: https://www.momoshop.com.tw//goods/GoodsDetail.jsp?i_code=10138666&Area=search&mdiv=403&oid=1_5&cid=index&kw=acer
 price: $ 18,900
+Product 6: 
+Name: 【Acer 宏碁】14吋i5輕薄長效EVO筆電(Swift 3 SF314-511/i5-1135G7/16G/512G SSD/W11)
+image: https://img4.momoshop.com.tw/goodsimg/0011/184/867/11184867_O.webp?t=1683124328
+link: https://www.momoshop.com.tw//goods/GoodsDetail.jsp?i_code=11184867&Area=search&mdiv=403&oid=1_6&cid=index&kw=acer
+price: $ 19,900
 Product 7: 
 Name: 【Acer 宏碁】14吋R7輕薄筆電(Swift 3 SF314-43/R7-5700U/16G/512G SSD/W11)
-image: https://img1.momoshop.com.tw/goodsimg/0011/184/870/11184870_O.webp?t=1679510688
+image: https://img4.momoshop.com.tw/goodsimg/0011/184/870/11184870_O.webp?t=1679510688
 link: https://www.momoshop.com.tw//goods/GoodsDetail.jsp?i_code=11184870&Area=search&mdiv=403&oid=1_7&cid=index&kw=acer
 price: $ 17,900
 Product 8: 
-Name: 【Acer 宏碁】14吋超值輕薄窄邊框筆電(Swift 1 SF114-34/N5100/4G/256G SSD/W11)
-image: https://img1.momoshop.com.tw/goodsimg/0010/220/688/10220688_O.webp?t=1681800747
-link: https://www.momoshop.com.tw//goods/GoodsDetail.jsp?i_code=10220688&Area=search&mdiv=403&oid=1_8&cid=index&kw=acer
-price: $ 10,900
+Name: 【Acer 宏碁】15.6吋i5輕薄效能筆電(Aspire 5 A515-57/i5-1235U/8G/512G SSD/W11)
+image: https://img4.momoshop.com.tw/goodsimg/0010/102/055/10102055_O.webp?t=1678843660
+link: https://www.momoshop.com.tw//goods/GoodsDetail.jsp?i_code=10102055&Area=search&mdiv=403&oid=1_8&cid=index&kw=acer
+price: $ 20,900
 Product 9: 
 Name: 【Acer 宏碁】15.6吋i5獨顯效能筆電(Aspire 5 A515-56G/i5-1135G7/8G/512G SSD/MX350/W11)
-image: https://img1.momoshop.com.tw/goodsimg/0011/126/695/11126695_O.webp?t=1679467090
+image: https://img4.momoshop.com.tw/goodsimg/0011/126/695/11126695_O.webp?t=1679467090
 link: https://www.momoshop.com.tw//goods/GoodsDetail.jsp?i_code=11126695&Area=search&mdiv=403&oid=1_9&cid=index&kw=acer
 price: $ 17,900
 Product 10: 
-Name: 【Acer 宏碁】Acer Iconia Tab P10 平板電腦 10.4吋(4G/64G)
-image: https://img1.momoshop.com.tw/goodsimg/0011/256/540/11256540_O.webp?t=1683775294
-link: https://www.momoshop.com.tw//goods/GoodsDetail.jsp?i_code=11256540&Area=search&mdiv=403&oid=1_10&cid=index&kw=acer
-price: $ 5,990
-Product 11: 
 Name: 【Acer 宏碁】14吋i5輕薄長效EVO筆電(Swift 3 SF314-512/i5-1240P/16G/512G SSD/W11)
-image: https://img1.momoshop.com.tw/goodsimg/0011/184/878/11184878_O.webp?t=1679479432
-link: https://www.momoshop.com.tw//goods/GoodsDetail.jsp?i_code=11184878&Area=search&mdiv=403&oid=1_11&cid=index&kw=acer
+image: https://img4.momoshop.com.tw/goodsimg/0011/184/878/11184878_O.webp?t=1679479432
+link: https://www.momoshop.com.tw//goods/GoodsDetail.jsp?i_code=11184878&Area=search&mdiv=403&oid=1_10&cid=index&kw=acer
 price: $ 25,900
-Product 12: 
+Product 11: 
 Name: 【Acer 宏碁】14吋i7極輕薄觸控EVO筆電(Swift 5 SF514-56T/i7-1260P/16G/512G SSD/W11)
-image: https://img1.momoshop.com.tw/goodsimg/0009/957/844/9957844_O.webp?t=1678780046
-link: https://www.momoshop.com.tw//goods/GoodsDetail.jsp?i_code=9957844&Area=search&mdiv=403&oid=1_12&cid=index&kw=acer
+image: https://img4.momoshop.com.tw/goodsimg/0009/957/844/9957844_O.webp?t=1678780046
+link: https://www.momoshop.com.tw//goods/GoodsDetail.jsp?i_code=9957844&Area=search&mdiv=403&oid=1_11&cid=index&kw=acer
 price: $ 37,900
-Product 13: 
+Product 12: 
 Name: 【Acer】Office 2021組★14吋i5輕薄長效EVO筆電(SF314-511/i5-1135G7/16G/512G SSD/W11)
-image: https://img1.momoshop.com.tw/goodsimg/0011/188/145/11188145_O.webp?t=1681813122
-link: https://www.momoshop.com.tw//goods/GoodsDetail.jsp?i_code=11188145&Area=search&mdiv=403&oid=1_13&cid=index&kw=acer
+image: https://img4.momoshop.com.tw/goodsimg/0011/188/145/11188145_O.webp?t=1681813122
+link: https://www.momoshop.com.tw//goods/GoodsDetail.jsp?i_code=11188145&Area=search&mdiv=403&oid=1_12&cid=index&kw=acer
 price: $ 23,900
-Product 14: 
+Product 13: 
 Name: 【Acer 宏碁】15.6吋i5獨顯電競筆電(Nitro 5 AN515-58-582W/i5-12500H/8GB/512G SSD/RTX3050/W11)
-image: https://img1.momoshop.com.tw/goodsimg/0010/170/194/10170194_O.webp?t=1678843874
-link: https://www.momoshop.com.tw//goods/GoodsDetail.jsp?i_code=10170194&Area=search&mdiv=403&oid=1_14&cid=index&kw=acer
-price: $ 25,900
-Product 15: 
-Name: 【Acer 宏碁】抗閃系列 24型 100Hz AMD FreeSync電競螢幕(QG240Y H3)
-image: https://img1.momoshop.com.tw/goodsimg/0010/910/231/10910231_O.webp?t=1677759075
-link: https://www.momoshop.com.tw//goods/GoodsDetail.jsp?i_code=10910231&Area=search&mdiv=403&oid=1_15&cid=index&kw=acer
-price: $ 2,588
-Product 16: 
-Name: 【Acer 宏碁】15.6吋i5效能電競筆電(Aspire 7 A715-76-58JZ/i5-12450H/8G/512G SSD/W11)
-image: https://img1.momoshop.com.tw/goodsimg/0010/374/199/10374199_O.webp?t=1681814463
-link: https://www.momoshop.com.tw//goods/GoodsDetail.jsp?i_code=10374199&Area=search&mdiv=403&oid=1_16&cid=index&kw=acer
-price: $ 22,900
-Product 17: 
-Name: 【Acer 宏碁】KB242Y H 24型 VA無邊框 廣視角螢幕(/1ms/100Hz抗閃)
-image: https://img1.momoshop.com.tw/goodsimg/0011/190/380/11190380_O.webp?t=1679594575
-link: https://www.momoshop.com.tw//goods/GoodsDetail.jsp?i_code=11190380&Area=search&mdiv=403&oid=1_17&cid=index&kw=acer
-price: $ 2,438
-Product 18: 
-Name: 【Acer】Office 2021組★14吋R5獨顯美型輕薄筆電(SFX14-41G/R5-5600U/16G/512G SSD/RTX3050/W11)
-image: https://img1.momoshop.com.tw/goodsimg/0010/140/243/10140243_O.webp?t=1678843701
-link: https://www.momoshop.com.tw//goods/GoodsDetail.jsp?i_code=10140243&Area=search&mdiv=403&oid=1_18&cid=index&kw=acer
-price: $ 27,900
-Product 19: 
-Name: 【Acer 宏碁】14吋輕薄筆電(SF114-34 /N5100/8G/512G SSD/Win11)
-image: https://img1.momoshop.com.tw/goodsimg/0010/067/008/10067008_O.webp?t=1679379009
-link: https://www.momoshop.com.tw//goods/GoodsDetail.jsp?i_code=10067008&Area=search&mdiv=403&oid=1_19&cid=index&kw=acer
-price: $ 14,900
-Product 20: 
-Name: 【Acer 宏碁】14吋輕薄觸控EVO筆電(SF514-55T-51LL/i5-1135G7/16G/512G SSD/Win11)
-image: https://img1.momoshop.com.tw/goodsimg/0010/112/133/10112133_O.webp?t=1676863569
-link: https://www.momoshop.com.tw//goods/GoodsDetail.jsp?i_code=10112133&Area=search&mdiv=403&oid=1_20&cid=index&kw=acer
+image: https://img4.momoshop.com.tw/goodsimg/0010/170/194/10170194_O.webp?t=1678843874
+link: https://www.momoshop.com.tw//goods/GoodsDetail.jsp?i_code=10170194&Area=search&mdiv=403&oid=1_13&cid=index&kw=acer
 price: $ 26,900
-Product 21: 
-Name: 【Acer 宏碁】i5六核商用電腦(Veriton X6680G/i5-10400/8G/512G SSD/W11 DG W10Pro)
-image: https://img1.momoshop.com.tw/goodsimg/0011/153/883/11153883_O.webp?t=1681789932
-link: https://www.momoshop.com.tw//goods/GoodsDetail.jsp?i_code=11153883&Area=search&mdiv=403&oid=1_21&cid=index&kw=acer
-price: $ 13,900
-Product 22: 
-Name: 【Acer】M365組★14吋超值輕薄窄邊框筆電(SF114-34/N5100/4G/256G SSD/W11)
-image: https://img1.momoshop.com.tw/goodsimg/0010/227/832/10227832_O.webp?t=1678843799
-link: https://www.momoshop.com.tw//goods/GoodsDetail.jsp?i_code=10227832&Area=search&mdiv=403&oid=1_22&cid=index&kw=acer
-price: $ 11,900
-Product 23: 
-Name: 預購 【Acer 宏碁】15.6吋i5輕薄效能筆電(Aspire 5 A515-57/i5-1235U/8G/512G SSD/W11)
-image: https://img1.momoshop.com.tw/goodsimg/0010/102/055/10102055_O.webp?t=1678843660
-link: https://www.momoshop.com.tw//goods/GoodsDetail.jsp?i_code=10102055&Area=search&mdiv=403&oid=1_23&cid=index&kw=acer
-price: $ 20,900
-Product 24: 
+Product 14: 
+Name: 【Acer 宏碁】抗閃系列 24型 100Hz AMD FreeSync電競螢幕(QG240Y H3)
+image: https://img4.momoshop.com.tw/goodsimg/0010/910/231/10910231_O.webp?t=1677759075
+link: https://www.momoshop.com.tw//goods/GoodsDetail.jsp?i_code=10910231&Area=search&mdiv=403&oid=1_14&cid=index&kw=acer
+price: $ 2,588
+Product 15: 
+Name: 【Acer 宏碁】14吋輕薄觸控EVO筆電(SF514-55T-51LL/i5-1135G7/16G/512G SSD/Win11)
+image: https://img4.momoshop.com.tw/goodsimg/0010/112/133/10112133_O.webp?t=1676863569
+link: https://www.momoshop.com.tw//goods/GoodsDetail.jsp?i_code=10112133&Area=search&mdiv=403&oid=1_15&cid=index&kw=acer
+price: $ 26,900
+Product 16: 
+Name: 預購 【Acer 宏碁】14吋超值輕薄窄邊框筆電(Swift 1 SF114-34/N5100/4G/256G SSD/W11)
+image: https://img4.momoshop.com.tw/goodsimg/0010/220/688/10220688_O.webp?t=1681800747
+link: https://www.momoshop.com.tw//goods/GoodsDetail.jsp?i_code=10220688&Area=search&mdiv=403&oid=1_16&cid=index&kw=acer
+price: $ 10,900
+Product 17: 
+Name: 【Acer 宏碁】15.6吋i5效能電競筆電(Aspire 7 A715-76-58JZ/i5-12450H/8G/512G SSD/W11)
+image: https://img4.momoshop.com.tw/goodsimg/0010/374/199/10374199_O.webp?t=1681814463
+link: https://www.momoshop.com.tw//goods/GoodsDetail.jsp?i_code=10374199&Area=search&mdiv=403&oid=1_17&cid=index&kw=acer
+price: $ 22,900
+Product 18: 
+Name: 【Acer 宏碁】KB242Y H 24型 VA無邊框 廣視角螢幕(/1ms/100Hz抗閃)
+image: https://img4.momoshop.com.tw/goodsimg/0011/190/380/11190380_O.webp?t=1679594575
+link: https://www.momoshop.com.tw//goods/GoodsDetail.jsp?i_code=11190380&Area=search&mdiv=403&oid=1_18&cid=index&kw=acer
+price: $ 2,488
+Product 19: 
 Name: 【Acer 宏碁】14吋i5極輕薄觸控EVO筆電(Swift 5 SF514-56T/i5-1240P/16G/512G SSD/W11)
-image: https://img1.momoshop.com.tw/goodsimg/0010/320/012/10320012_O.webp?t=1678782408
-link: https://www.momoshop.com.tw//goods/GoodsDetail.jsp?i_code=10320012&Area=search&mdiv=403&oid=1_24&cid=index&kw=acer
+image: https://img4.momoshop.com.tw/goodsimg/0010/320/012/10320012_O.webp?t=1678782408
+link: https://www.momoshop.com.tw//goods/GoodsDetail.jsp?i_code=10320012&Area=search&mdiv=403&oid=1_19&cid=index&kw=acer
 price: $ 33,900
+Product 20: 
+Name: 【Acer 宏碁】14吋輕薄筆電(SF114-34 /N5100/8G/512G SSD/Win11)
+image: https://img4.momoshop.com.tw/goodsimg/0010/067/008/10067008_O.webp?t=1679379009
+link: https://www.momoshop.com.tw//goods/GoodsDetail.jsp?i_code=10067008&Area=search&mdiv=403&oid=1_20&cid=index&kw=acer
+price: $ 14,900
+Product 21: 
+Name: 【Acer 宏碁】15.6吋i5輕薄筆電(Aspire5 A515-58M-50Z1/i5-1335U/16G/512G SSD/W11)
+image: https://img4.momoshop.com.tw/goodsimg/0011/243/726/11243726_O.webp?t=1684228493
+link: https://www.momoshop.com.tw//goods/GoodsDetail.jsp?i_code=11243726&Area=search&mdiv=403&oid=1_21&cid=index&kw=acer
+price: $ 23,900
+Product 22: 
+Name: 【Acer】Office 2021組★14吋R5獨顯美型輕薄筆電(SFX14-41G/R5-5600U/16G/512G SSD/RTX3050/W11)
+image: https://img4.momoshop.com.tw/goodsimg/0010/140/243/10140243_O.webp?t=1678843701
+link: https://www.momoshop.com.tw//goods/GoodsDetail.jsp?i_code=10140243&Area=search&mdiv=403&oid=1_22&cid=index&kw=acer
+price: $ 27,900
+Product 23: 
+Name: 【Acer 宏碁】14吋EVO輕薄特仕筆電(Swift3 SF314-512/i5-1240P/16GB/1TB PCIE SSD/W11)
+image: https://img4.momoshop.com.tw/goodsimg/0010/938/094/10938094_O.webp?t=1678467948
+link: https://www.momoshop.com.tw//goods/GoodsDetail.jsp?i_code=10938094&Area=search&mdiv=403&oid=1_23&cid=index&kw=acer
+price: $ 26,900
+Product 24: 
+Name: 【Acer 宏碁】N4505雙核電腦(XC-840/N4505/8G/256G SSD/W11)
+image: https://img4.momoshop.com.tw/goodsimg/0010/997/729/10997729_O.webp?t=1679394844
+link: https://www.momoshop.com.tw//goods/GoodsDetail.jsp?i_code=10997729&Area=search&mdiv=403&oid=1_24&cid=index&kw=acer
+price: $ 9,288
 Product 25: 
 Name: 【Acer 宏碁】15.6吋i5獨顯輕薄效能筆電(Aspire 5 A515-57G/i5-1235U/8G/512G SSD/MX550/W11)
-image: https://img1.momoshop.com.tw/goodsimg/0010/069/492/10069492_O.webp?t=1678804364
+image: https://img4.momoshop.com.tw/goodsimg/0010/069/492/10069492_O.webp?t=1678804364
 link: https://www.momoshop.com.tw//goods/GoodsDetail.jsp?i_code=10069492&Area=search&mdiv=403&oid=1_25&cid=index&kw=acer
 price: $ 22,900
 Product 26: 
-Name: 【Acer 宏碁】15.6吋輕薄筆電(A515-57/i5-1235U/8G/512GB SSD/Win11)
-image: https://img1.momoshop.com.tw/goodsimg/0010/148/385/10148385_O.webp?t=1676894975
-link: https://www.momoshop.com.tw//goods/GoodsDetail.jsp?i_code=10148385&Area=search&mdiv=403&oid=1_26&cid=index&kw=acer
-price: $ 19,900
-Product 27: 
-Name: 【Acer 宏碁】15.6吋i5輕薄筆電(Aspire5 A515-58M-50Z1/i5-1335U/16G/512G SSD/W11)
-image: https://img1.momoshop.com.tw/goodsimg/0011/243/726/11243726_O.webp?t=1682682688
-link: https://www.momoshop.com.tw//goods/GoodsDetail.jsp?i_code=11243726&Area=search&mdiv=403&oid=1_27&cid=index&kw=acer
-price: $ 23,900
-Product 28: 
-Name: 【Acer 宏碁】16吋R7 OLED 輕薄筆電(Swift Edge SFA16-41-R6WU/R7-6800U/16G/512G SSD/W11)
-image: https://img1.momoshop.com.tw/goodsimg/0010/646/608/10646608_O.webp?t=1678849768
-link: https://www.momoshop.com.tw//goods/GoodsDetail.jsp?i_code=10646608&Area=search&mdiv=403&oid=1_28&cid=index&kw=acer
-price: $ 46,900
-Product 29: 
-Name: 【Acer 宏碁】KB272HL 27型 VA FHD 無邊框 廣視角螢幕
-image: https://img1.momoshop.com.tw/goodsimg/0010/323/305/10323305_O.webp?t=1677758092
-link: https://www.momoshop.com.tw//goods/GoodsDetail.jsp?i_code=10323305&Area=search&mdiv=403&oid=1_29&cid=index&kw=acer
-price: $ 2,888
-Product 30: 
 Name: 【Acer 宏碁】15.6吋i7獨顯電競筆電(Nitro 5 AN515-58-76FW/i7-12700H/16G/512G SSD/RTX3050/W11)
-image: https://img1.momoshop.com.tw/goodsimg/0010/121/795/10121795_O.webp?t=1678843925
-link: https://www.momoshop.com.tw//goods/GoodsDetail.jsp?i_code=10121795&Area=search&mdiv=403&oid=1_30&cid=index&kw=acer
+image: https://img4.momoshop.com.tw/goodsimg/0010/121/795/10121795_O.webp?t=1678843925
+link: https://www.momoshop.com.tw//goods/GoodsDetail.jsp?i_code=10121795&Area=search&mdiv=403&oid=1_26&cid=index&kw=acer
 price: $ 30,900
+Product 27: 
+Name: 【Acer】直升16G組★15.6吋i7效能電競筆電(A715-76-743C/i7-12650H/8G/512G SSD/W11)
+image: https://img4.momoshop.com.tw/goodsimg/0010/778/578/10778578_O.webp?t=1678787584
+link: https://www.momoshop.com.tw//goods/GoodsDetail.jsp?i_code=10778578&Area=search&mdiv=403&oid=1_27&cid=index&kw=acer
+price: $ 24,650
+Product 28: 
+Name: 【Acer 宏碁】KB272HL 27型 VA FHD 無邊框 廣視角螢幕
+image: https://img4.momoshop.com.tw/goodsimg/0010/323/305/10323305_O.webp?t=1677758092
+link: https://www.momoshop.com.tw//goods/GoodsDetail.jsp?i_code=10323305&Area=search&mdiv=403&oid=1_28&cid=index&kw=acer
+price: $ 2,888
+Product 29: 
+Name: 【Acer 宏碁】16吋R7 OLED 輕薄筆電(Swift Edge SFA16-41-R6WU/R7-6800U/16G/512G SSD/W11)
+image: https://img4.momoshop.com.tw/goodsimg/0010/646/608/10646608_O.webp?t=1678849768
+link: https://www.momoshop.com.tw//goods/GoodsDetail.jsp?i_code=10646608&Area=search&mdiv=403&oid=1_29&cid=index&kw=acer
+price: $ 46,900
+Product 30: 
+Name: 【Acer 宏碁】16吋i5 OLED輕薄EVO筆電(Swift Go SFG16-71-55WZ/i5-13500H/16G/512G PCIE SSD/Win11)
+image: https://img4.momoshop.com.tw/goodsimg/0011/243/727/11243727_O.webp?t=1684228379
+link: https://www.momoshop.com.tw//goods/GoodsDetail.jsp?i_code=11243727&Area=search&mdiv=403&oid=1_30&cid=index&kw=acer
+price: $ 35,900
