@@ -9,15 +9,15 @@ image: //cs-b.ecimg.tw/items/DHAEH01900FB0VF/000001_1679723644.jpg
 link: //24h.pchome.com.tw/prod/DHAEH0-1900FB0VF
 price: $ 23900
 Product 3: 
-Name: ACER Aspire 5 A514-55G-59XY 紅(i5-1235U/8G/MX550-2G/512G PCIe/W11/FHD/14)
-image: //cs-c.ecimg.tw/items/DHAEH01900FB0UV/000001_1658213033.jpg
-link: //24h.pchome.com.tw/prod/DHAEH0-1900FB0UV
-price: $ 23900
-Product 4: 
 Name: ACER Aspire 3 A315-59G-52QG 綠(i5-1235U/8G/MX550-2G/512G SSD/W11/FHD/15.6)
-image: //cs-d.ecimg.tw/items/DHAECU1900F7I31/000001_1673402084.jpg
+image: //cs-c.ecimg.tw/items/DHAECU1900F7I31/000001_1673402084.jpg
 link: //24h.pchome.com.tw/prod/DHAECU-1900F7I31
 price: $ 22900
+Product 4: 
+Name: ACER Aspire 5 A514-55G-59XY 紅(i5-1235U/8G/MX550-2G/512G PCIe/W11/FHD/14)
+image: //cs-d.ecimg.tw/items/DHAEH01900FB0UV/000001_1658213033.jpg
+link: //24h.pchome.com.tw/prod/DHAEH0-1900FB0UV
+price: $ 23900
 Product 5: 
 Name: ACER Swift 1 SF114-34-C1MV 粉(N5100/4G/256GB PCIe SSD/W11/FHD/14)
 image: //cs-e.ecimg.tw/items/DHAEDU1900FCOOL/000001_1666750152.jpg
@@ -59,42 +59,42 @@ image: //cs-f.ecimg.tw/items/DHAEDU1900FCOWR/000001_1662521584.jpg
 link: //24h.pchome.com.tw/prod/DHAEDU-1900FCOWR
 price: $ 10900
 Product 13: 
-Name: ACER Aspire 3 A315-59G-52Q0 紫(i5-1235U/8G/MX550-2G/512G SSD/W11/FHD/15.6)
-image: //cs-a.ecimg.tw/items/DHAECU1900F7I3C/000001_1655867489.jpg
-link: //24h.pchome.com.tw/prod/DHAECU-1900F7I3C
-price: $ 22900
-Product 14: 
 Name: ACER Aspire 3 A315-59-59UD 銀(i5-1235U/8G/512G SSD/W11/FHD/15.6)
-image: //cs-b.ecimg.tw/items/DHAECU1900G2MPB/000001_1683252580.jpg
+image: //cs-a.ecimg.tw/items/DHAECU1900G2MPB/000001_1683252580.jpg
 link: //24h.pchome.com.tw/prod/DHAECU-1900G2MPB
 price: $ 16900
+Product 14: 
+Name: ACER Aspire 3 A315-59G-52Q0 紫(i5-1235U/8G/MX550-2G/512G SSD/W11/FHD/15.6)
+image: //cs-b.ecimg.tw/items/DHAECU1900F7I3C/000001_1655867489.jpg
+link: //24h.pchome.com.tw/prod/DHAECU-1900F7I3C
+price: $ 22900
 Product 15: 
 Name: ACER Aspire A715-76G-506G 黑(i5-12450H/8G/RTX3050-4GB/512G PCIe/W11/FHD/15.6)
 image: //cs-c.ecimg.tw/items/DHAEGD1900G68QR/000001_1684204261.jpg
 link: //24h.pchome.com.tw/prod/DHAEGD-1900G68QR
 price: $ 23900
 Product 16: 
-Name: ACER Aspire5 A517-52-57JX 銀(i5-1135G7/4G/256G PCIe+1T/W11/FHD/17.3)
-image: //cs-d.ecimg.tw/items/DHAEHH1900G2MU6/000001_1683597435.jpg
-link: //24h.pchome.com.tw/prod/DHAEHH-1900G2MU6
-price: $ 15900
-Product 17: 
 Name: ACER Swift3 SF314-511-513K 銀(i5-1135G7/16G/512G PCIe/W11/FHD/14)
-image: //cs-e.ecimg.tw/items/DHAEBP1900G9UBW/000001_1683525890.jpg
+image: //cs-d.ecimg.tw/items/DHAEBP1900G9UBW/000001_1683525890.jpg
 link: //24h.pchome.com.tw/prod/DHAEBP-1900G9UBW
 price: $ 19900
+Product 17: 
+Name: ACER Aspire5 A517-52-57JX 銀(i5-1135G7/4G/256G PCIe+1T/W11/FHD/17.3)
+image: //cs-e.ecimg.tw/items/DHAEHH1900G2MU6/000001_1683597435.jpg
+link: //24h.pchome.com.tw/prod/DHAEHH-1900G2MU6
+price: $ 15900
 Product 18: 
 Name: ACER Nitro5 AN517-55-74L0 黑(i7-12700H/16G/RTX3050Ti-4G/512G PCIe/W11/FHD/165Hz/17.3)
 image: //cs-f.ecimg.tw/items/DHAEGB1900G2MEI/000001_1682992892.jpg
 link: //24h.pchome.com.tw/prod/DHAEGB-1900G2MEI
 price: $ 32900
 Product 19: 
+Name: ACER Nitro5 AN515-58-76FW 黑(i7-12700H/16G/RTX3050-4G/512G PCIe/W11/FHD/165Hz/15.6)
+image: //cs-a.ecimg.tw/items/DHAEGB1900F1SEF/000001_1680834163.jpg
+link: //24h.pchome.com.tw/prod/DHAEGB-1900F1SEF
+price: $ 31900
+Product 20: 
 Name: ACER Extensa EX215-54G-76W2(i7-1165G7/8G/MX350-2G/512G PCIe+1TB/W10P/FHD/15.6)
-image: //cs-a.ecimg.tw/items/DHAEFKA900EDM9C/000001_1681699111.jpg
+image: //cs-b.ecimg.tw/items/DHAEFKA900EDM9C/000001_1681699111.jpg
 link: //24h.pchome.com.tw/prod/DHAEFK-A900EDM9C
 price: $ 24900
-Product 20: 
-Name: ACER Swift GO SFG14-71-54EW 銀(i5-13500H/16G/512G PCIe/W11/2.8K OLED/14)
-image: //cs-b.ecimg.tw/items/DHAEII1900G8NWH/000001_1682562753.jpg
-link: //24h.pchome.com.tw/prod/DHAEII-1900G8NWH
-price: $ 32900
