@@ -34,7 +34,7 @@
     </script> 
   <script type="text/javascript" src="https://cs-d.ecimg.tw/img/min/ecshweb/js/v3.3shjs-20230419192539.js">
     </script> 
-  <script type="text/javascript" src="https://libs.pcloud.tw/js/current/venraaspt.min.js?_=19494" async>
+  <script type="text/javascript" src="https://libs.pcloud.tw/js/current/venraaspt.min.js?_=19499" async>
     </script> <!-- setting Optimize --> 
   <script type="text/javascript" src="https://www.googleoptimize.com/optimize.js?id=OPT-K6J937F">
     </script> <!-- setting Optimize --> <!-- setting Manager --> 
@@ -159,7 +159,7 @@ if (!SearchBot.isBot)
         <li> <input id="btn_search" type="button" class="button" value="找商品"> </li> 
         <li> <a href="https://ecvip.pchome.com.tw/?m=myaccount&amp;c=service&amp;f=showSearchService"> 買不到通知我！ </a> </li> 
        </ul> 
-       <div class="msg_box"> <span id="SearchInfo"> 共找到 <span class="value"> 5796 </span> 筆 </span> 
+       <div class="msg_box"> <span id="SearchInfo"> 共找到 <span class="value"> 5947 </span> 筆 </span> 
        </div> 
       </div> 
       <div class="Nb"> 
@@ -174,70 +174,70 @@ if (!SearchBot.isBot)
       </dt> 
       <dd id="CategoryContainer"> 
        <ul class="treeview"> 
-        <li id="cate_D" class="expanded"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 24h購物(5389) </a> 
+        <li id="cate_D" class="expanded"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 24h購物(5540) </a> 
          <ul class="main"> 
-          <li id="cate_DCBA"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 辦公設備(1534) </a> </li> 
-          <li id="cate_DHAB"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 特仕筆電(1141) </a> </li> 
-          <li id="cate_DCAG"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 筆電周邊/配件(527) </a> </li> 
-          <li id="cate_DCAB"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 充電/電池(295) </a> </li> 
-          <li id="cate_DCAH"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 鍵盤(250) </a> </li> 
-          <li id="cate_DSAA"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 桌上電腦(222) </a> </li> 
-          <li id="cate_DICM"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 電腦包/商務包(196) </a> </li> 
-          <li id="cate_DSAB"> <span class="collapsible"> </span> <a href="javascript:void(0);"> LCD螢幕(186) </a> </li> 
+          <li id="cate_DCBA"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 辦公設備(1538) </a> </li> 
+          <li id="cate_DHAB"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 特仕筆電(1156) </a> </li> 
+          <li id="cate_DCAG"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 筆電周邊/配件(613) </a> </li> 
+          <li id="cate_DCAB"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 充電/電池(294) </a> </li> 
+          <li id="cate_DCAH"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 鍵盤(254) </a> </li> 
+          <li id="cate_DSAA"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 桌上電腦(234) </a> </li> 
+          <li id="cate_DICM"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 電腦包/商務包(197) </a> </li> 
+          <li id="cate_DSAB"> <span class="collapsible"> </span> <a href="javascript:void(0);"> LCD螢幕(191) </a> </li> 
           <li id="cate_DCAC"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 線材(177) </a> </li> 
-          <li id="cate_DHAE"> <span class="collapsible"> </span> <a href="javascript:void(0);"> ACER宏碁(113) </a> </li> 
+          <li id="cate_DHAE"> <span class="collapsible"> </span> <a href="javascript:void(0);"> ACER宏碁(115) </a> </li> 
+          <li id="cate_DSBC"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 南紡3C(109) </a> </li> 
           <li id="cate_DSAM"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 商用電腦(103) </a> </li> 
-          <li id="cate_DSBC"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 南紡3C(99) </a> </li> 
           <li id="cate_DPAE"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 投影機(88) </a> </li> 
           <li id="cate_DYAG"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 安卓殼套(67) </a> </li> 
           <li id="cate_DYAP"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 線材(53) </a> </li> 
           <li id="cate_DABQ"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 商店街(40) </a> </li> 
+          <li id="cate_DSAF"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 清倉(32) </a> </li> 
           <li id="cate_DSBE"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 露天(29) </a> </li> 
           <li id="cate_DCAD"> <span class="collapsible"> </span> <a href="javascript:void(0);"> USBHUB/周邊(24) </a> </li> 
-          <li id="cate_DMAU"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 清淨機(23) </a> </li> 
-          <li id="cate_DSAF"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 清倉(19) </a> </li> 
+          <li id="cate_DMAU"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 清淨機(22) </a> </li> 
           <li id="cate_DCBE"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 三井3C(18) </a> </li> 
           <li id="cate_DYAH"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 安卓保貼(16) </a> </li> 
           <li id="cate_DYAF"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 手機平板配件(15) </a> </li> 
           <li id="cate_DRAH"> <span class="collapsible"> </span> <a href="javascript:void(0);"> S　S　D(14) </a> </li> 
-          <li id="cate_DQBK"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 辦公用品(11) </a> </li> 
           <li id="cate_DYBC"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 支架(11) </a> </li> 
+          <li id="cate_DQBK"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 辦公用品(11) </a> </li> 
           <li id="cate_DPAD"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 液晶電視(9) </a> </li> 
+          <li id="cate_DCAA"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 光碟片/機(8) </a> </li> 
           <li id="cate_DGBJ"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 電玩/遊戲(8) </a> </li> 
           <li id="cate_DIBF"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 女包/斜背包(8) </a> </li> 
-          <li id="cate_DCAA"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 光碟片/機(8) </a> </li> 
           <li id="cate_DYAI"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 智慧穿戴(6) </a> </li> 
-          <li id="cate_DMAW"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 冷熱飲水(5) </a> </li> 
-          <li id="cate_DCAY"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 耳機/麥克風(5) </a> </li> 
           <li id="cate_DMAA"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 影音/劇院(5) </a> </li> 
+          <li id="cate_DCAY"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 耳機/麥克風(5) </a> </li> 
           <li id="cate_DRAF"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 網　路(5) </a> </li> 
-          <li id="cate_DYAZ"> <span class="collapsible"> </span> <a href="javascript:void(0);"> APPLE周邊(4) </a> </li> 
+          <li id="cate_DMAW"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 冷熱飲水(5) </a> </li> 
+          <li id="cate_DMAB"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 電風扇(5) </a> </li> 
           <li id="cate_DSAZ"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 電源供應器(4) </a> </li> 
-          <li id="cate_DSAJ"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 主機板(4) </a> </li> 
-          <li id="cate_DMAB"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 電風扇(4) </a> </li> 
+          <li id="cate_DYAZ"> <span class="collapsible"> </span> <a href="javascript:void(0);"> APPLE周邊(4) </a> </li> 
           <li id="cate_DYBA"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 充電/傳輸(4) </a> </li> 
+          <li id="cate_DSAJ"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 主機板(4) </a> </li> 
+          <li id="cate_DSAQ"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 商用列印(3) </a> </li> 
           <li id="cate_DMAX"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 吸塵器(3) </a> </li> 
           <li id="cate_DRAC"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 記憶體(3) </a> </li> 
-          <li id="cate_DSAQ"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 商用列印(3) </a> </li> 
           <li id="cate_DCAI"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 喇叭(3) </a> </li> 
-          <li id="cate_DXBQ"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 車麗屋(2) </a> </li> 
-          <li id="cate_DRAD"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 顯示卡(2) </a> </li> 
-          <li id="cate_DIBM"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 男包/皮夾(2) </a> </li> 
-          <li id="cate_DXAX"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 運動鞋(2) </a> </li> 
-          <li id="cate_DSAW"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 台灣精品(2) </a> </li> 
           <li id="cate_DSAR"> <span class="collapsible"> </span> <a href="javascript:void(0);"> Logitech羅技(2) </a> </li> 
+          <li id="cate_DSAW"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 台灣精品(2) </a> </li> 
+          <li id="cate_DXAX"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 運動鞋(2) </a> </li> 
+          <li id="cate_DRAD"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 顯示卡(2) </a> </li> 
           <li id="cate_DEBN"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 運動服(2) </a> </li> 
           <li id="cate_DEAQ"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 智慧錶/手環(2) </a> </li> 
-          <li id="cate_DBAB"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 飲料(1) </a> </li> 
-          <li id="cate_DCAN"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 滑鼠(1) </a> </li> 
-          <li id="cate_DEAD"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 汽車百貨(1) </a> </li> 
-          <li id="cate_DGAX"> <span class="collapsible"> </span> <a href="javascript:void(0);"> Mac周邊(1) </a> </li> 
-          <li id="cate_DMAG"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 料理電器(1) </a> </li> 
-          <li id="cate_DMBM"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 南紡家電(1) </a> </li> 
-          <li id="cate_DQBB"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 修繕五金(1) </a> </li> 
-          <li id="cate_DSBB"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 電競螢幕(1) </a> </li> 
-          <li id="cate_DYAJ"> <span class="collapsible"> </span> <a href="javascript:void(0);"> APPLE(1) </a> </li> 
+          <li id="cate_DXBQ"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 車麗屋(2) </a> </li> 
+          <li id="cate_DIBM"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 男包/皮夾(2) </a> </li> 
           <li id="cate_DYAM"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 平板(1) </a> </li> 
+          <li id="cate_DYAJ"> <span class="collapsible"> </span> <a href="javascript:void(0);"> APPLE(1) </a> </li> 
+          <li id="cate_DSBB"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 電競螢幕(1) </a> </li> 
+          <li id="cate_DCAN"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 滑鼠(1) </a> </li> 
+          <li id="cate_DQBB"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 修繕五金(1) </a> </li> 
+          <li id="cate_DMBM"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 南紡家電(1) </a> </li> 
+          <li id="cate_DMAG"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 料理電器(1) </a> </li> 
+          <li id="cate_DGAX"> <span class="collapsible"> </span> <a href="javascript:void(0);"> Mac周邊(1) </a> </li> 
+          <li id="cate_DEAD"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 汽車百貨(1) </a> </li> 
+          <li id="cate_DBAB"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 飲料(1) </a> </li> 
           <li id="cate_DYAQ" class="main end"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 藍牙耳機(1) </a> </li> 
          </ul> </li> 
         <li id="cate_DJDN" class="expanded"> <span class="collapsible"> </span> <a href="javascript:void(0);"> 24h書店(293) </a> 
@@ -328,28 +328,26 @@ if (!SearchBot.isBot)
           </ul> 
          </dd> 
         </dl> 
-        <dl class="col3f" id="DHAEH0-1900FB0TA"> 
-         <dd class="c1f"> <a class="prod_img" href="//24h.pchome.com.tw/prod/DHAEH0-1900FB0TA"> <img src="//cs-a.ecimg.tw/items/DHAEH01900FB0TA/000001_1683166443.jpg" title="ACER Aspire 5 A514-55-54WP 金(i5-1235U/8G/Iris Xe Graphics/512G PCIe/W11/FHD/14)" alt="ACER Aspire 5 A514-55-54WP 金(i5-1235U/8G/Iris Xe Graphics/512G PCIe/W11/FHD/14)"> </a> 
+        <dl class="col3f" id="DHAEDU-1900FCOOL"> 
+         <dd class="c1f"> <a class="prod_img" href="//24h.pchome.com.tw/prod/DHAEDU-1900FCOOL"> <img src="//cs-a.ecimg.tw/items/DHAEDU1900FCOOL/000001_1666750152.jpg" title="ACER Swift 1 SF114-34-C1MV 粉(N5100/4G/256GB PCIe SSD/W11/FHD/14)" alt="ACER Swift 1 SF114-34-C1MV 粉(N5100/4G/256GB PCIe SSD/W11/FHD/14)"> </a> 
          </dd> 
          <dd class="c2f"> 
           <ul class="tag_box s_label"> 
           </ul> 
-          <h5 class="prod_name"> <a href="//24h.pchome.com.tw/prod/DHAEH0-1900FB0TA"> ACER Aspire 5 A514-55-54WP 金(i5-1235U/8G/Iris Xe Graphics/512G PCIe/W11/FHD/14) </a> </h5> <span class="nick"> 12代i5★高效美型文書ACER Aspire 5 A514-55-54WP 金i5-1235U ∥ 8G ∥ 512G PCIe SSD ∥ 14" ✨內外兼具，強大無比 ✨ 🔸 高效能，intel 12代10核、12執行緒 🔸 </span> 
+          <h5 class="prod_name"> <a href="//24h.pchome.com.tw/prod/DHAEDU-1900FCOOL"> ACER Swift 1 SF114-34-C1MV 粉(N5100/4G/256GB PCIe SSD/W11/FHD/14) </a> </h5> <span class="nick"> 多色任選★金屬機身高質感ACER Swift 1 SF114-34-C1MV 粉輕1.3 kg ∥ 金屬機身 ▼輕巧隨行▼時尚潮品↘搶！ 處理器：intel® celeron® quad core processor n5100 顯示 </span> 
           <ul id="bookInfo"> 
           </ul> 
-          <ul id="marketing_DHAEH0-1900FB0TA" class="tag_box s_marketing"> 
-           <li> <span class="sign"> 折價券 </span> </li> 
+          <ul id="marketing_DHAEDU-1900FCOOL" class="tag_box s_marketing"> 
            <li> <span class="ico label-24h-new"> 24H到貨 </span> </li> 
-           <li> <span class="sign"> P幣 </span> </li> 
           </ul> 
          </dd> 
-         <dd class="c3f" id="button_DHAEH0-1900FB0TA" data-type="24hr"> 
+         <dd class="c3f" id="button_DHAEDU-1900FCOOL" data-type="24hr"> 
           <ul class="price_box"> 
-           <li> 網路價 <span class="price"> $ <span id="price_DHAEH0-1900FB0TA" class="value"> 19900 </span> </span> </li> 
+           <li> 網路價 <span class="price"> $ <span id="price_DHAEDU-1900FCOOL" class="value"> 10900 </span> </span> </li> 
           </ul> 
           <ul class="fieldset_box"> 
-           <li class="site_btn add24hCart"> <select class="unblock spec"></select> <select class="unblock number"> <option value="1" selected> 1 </option> <option value="2"> 2 </option> <option value="3"> 3 </option> <option value="4"> 4 </option> </select> <button type="button" class="unblock" _value="24hr"> <span> 加入 </span> <span> 購物車 </span> </button> </li> 
-          </ul> <a href="javascript:void(0);" class="trace" id="trace_DHAEH0-1900FB0TA"> 加入追蹤 </a> 
+           <li class="site_btn add24hCart"> <select class="unblock spec"></select> <select class="unblock number"> <option value="1" selected> 1 </option> <option value="2"> 2 </option> <option value="3"> 3 </option> <option value="4"> 4 </option> <option value="5"> 5 </option> </select> <button type="button" class="unblock" _value="24hr"> <span> 加入 </span> <span> 購物車 </span> </button> </li> 
+          </ul> <a href="javascript:void(0);" class="trace" id="trace_DHAEDU-1900FCOOL"> 加入追蹤 </a> 
          </dd> 
         </dl> 
         <dl class="col3f" id="DHAEH0-1900FB0VF"> 
@@ -364,7 +362,6 @@ if (!SearchBot.isBot)
           <ul id="marketing_DHAEH0-1900FB0VF" class="tag_box s_marketing"> 
            <li> <span class="sign"> 折價券 </span> </li> 
            <li> <span class="ico label-24h-new"> 24H到貨 </span> </li> 
-           <li> <span class="sign"> P幣 </span> </li> 
           </ul> 
          </dd> 
          <dd class="c3f" id="button_DHAEH0-1900FB0VF" data-type="24hr"> 
@@ -376,32 +373,8 @@ if (!SearchBot.isBot)
           </ul> <a href="javascript:void(0);" class="trace" id="trace_DHAEH0-1900FB0VF"> 加入追蹤 </a> 
          </dd> 
         </dl> 
-        <dl class="col3f" id="DHAECU-1900F7I31"> 
-         <dd class="c1f"> <a class="prod_img" href="//24h.pchome.com.tw/prod/DHAECU-1900F7I31"> <img src="//cs-c.ecimg.tw/items/DHAECU1900F7I31/000001_1673402084.jpg" title="ACER Aspire 3 A315-59G-52QG 綠(i5-1235U/8G/MX550-2G/512G SSD/W11/FHD/15.6)" alt="ACER Aspire 3 A315-59G-52QG 綠(i5-1235U/8G/MX550-2G/512G SSD/W11/FHD/15.6)"> </a> 
-         </dd> 
-         <dd class="c2f"> 
-          <ul class="tag_box s_label"> 
-          </ul> 
-          <h5 class="prod_name"> <a href="//24h.pchome.com.tw/prod/DHAECU-1900F7I31"> ACER Aspire 3 A315-59G-52QG 綠(i5-1235U/8G/MX550-2G/512G SSD/W11/FHD/15.6) </a> </h5> <span class="nick"> MX550獨顯強效▼獨立數字鍵ACER Aspire 3 A315-59G-52QG 綠i5-1235U ∥ MX550-2G ∥ 8G ∥ 512G SSD ✨外在有型，內在有力！✨ 🔸 強效能，intel 12代+mx550獨立顯卡 </span> 
-          <ul id="bookInfo"> 
-          </ul> 
-          <ul id="marketing_DHAECU-1900F7I31" class="tag_box s_marketing"> 
-           <li> <span class="sign"> 折價券 </span> </li> 
-           <li> <span class="ico label-24h-new"> 24H到貨 </span> </li> 
-           <li> <span class="sign"> P幣 </span> </li> 
-          </ul> 
-         </dd> 
-         <dd class="c3f" id="button_DHAECU-1900F7I31" data-type="24hr"> 
-          <ul class="price_box"> 
-           <li> 網路價 <span class="price"> $ <span id="price_DHAECU-1900F7I31" class="value"> 22900 </span> </span> </li> 
-          </ul> 
-          <ul class="fieldset_box"> 
-           <li class="site_btn add24hCart"> <select class="unblock spec"></select> <select class="unblock number"> <option value="1" selected> 1 </option> <option value="2"> 2 </option> <option value="3"> 3 </option> <option value="4"> 4 </option> </select> <button type="button" class="unblock" _value="24hr"> <span> 加入 </span> <span> 購物車 </span> </button> </li> 
-          </ul> <a href="javascript:void(0);" class="trace" id="trace_DHAECU-1900F7I31"> 加入追蹤 </a> 
-         </dd> 
-        </dl> 
         <dl class="col3f" id="DHAEH0-1900FB0UV"> 
-         <dd class="c1f"> <a class="prod_img" href="//24h.pchome.com.tw/prod/DHAEH0-1900FB0UV"> <img src="//cs-d.ecimg.tw/items/DHAEH01900FB0UV/000001_1658213033.jpg" title="ACER Aspire 5 A514-55G-59XY 紅(i5-1235U/8G/MX550-2G/512G PCIe/W11/FHD/14)" alt="ACER Aspire 5 A514-55G-59XY 紅(i5-1235U/8G/MX550-2G/512G PCIe/W11/FHD/14)"> </a> 
+         <dd class="c1f"> <a class="prod_img" href="//24h.pchome.com.tw/prod/DHAEH0-1900FB0UV"> <img src="//cs-c.ecimg.tw/items/DHAEH01900FB0UV/000001_1658213033.jpg" title="ACER Aspire 5 A514-55G-59XY 紅(i5-1235U/8G/MX550-2G/512G PCIe/W11/FHD/14)" alt="ACER Aspire 5 A514-55G-59XY 紅(i5-1235U/8G/MX550-2G/512G PCIe/W11/FHD/14)"> </a> 
          </dd> 
          <dd class="c2f"> 
           <ul class="tag_box s_label"> 
@@ -412,7 +385,6 @@ if (!SearchBot.isBot)
           <ul id="marketing_DHAEH0-1900FB0UV" class="tag_box s_marketing"> 
            <li> <span class="sign"> 折價券 </span> </li> 
            <li> <span class="ico label-24h-new"> 24H到貨 </span> </li> 
-           <li> <span class="sign"> P幣 </span> </li> 
           </ul> 
          </dd> 
          <dd class="c3f" id="button_DHAEH0-1900FB0UV" data-type="24hr"> 
@@ -424,31 +396,31 @@ if (!SearchBot.isBot)
           </ul> <a href="javascript:void(0);" class="trace" id="trace_DHAEH0-1900FB0UV"> 加入追蹤 </a> 
          </dd> 
         </dl> 
-        <dl class="col3f" id="DHAEDU-1900FCOOL"> 
-         <dd class="c1f"> <a class="prod_img" href="//24h.pchome.com.tw/prod/DHAEDU-1900FCOOL"> <img src="//cs-e.ecimg.tw/items/DHAEDU1900FCOOL/000001_1666750152.jpg" title="ACER Swift 1 SF114-34-C1MV 粉(N5100/4G/256GB PCIe SSD/W11/FHD/14)" alt="ACER Swift 1 SF114-34-C1MV 粉(N5100/4G/256GB PCIe SSD/W11/FHD/14)"> </a> 
+        <dl class="col3f" id="DHAECU-1900F7I31"> 
+         <dd class="c1f"> <a class="prod_img" href="//24h.pchome.com.tw/prod/DHAECU-1900F7I31"> <img src="//cs-d.ecimg.tw/items/DHAECU1900F7I31/000001_1673402084.jpg" title="ACER Aspire 3 A315-59G-52QG 綠(i5-1235U/8G/MX550-2G/512G SSD/W11/FHD/15.6)" alt="ACER Aspire 3 A315-59G-52QG 綠(i5-1235U/8G/MX550-2G/512G SSD/W11/FHD/15.6)"> </a> 
          </dd> 
          <dd class="c2f"> 
           <ul class="tag_box s_label"> 
           </ul> 
-          <h5 class="prod_name"> <a href="//24h.pchome.com.tw/prod/DHAEDU-1900FCOOL"> ACER Swift 1 SF114-34-C1MV 粉(N5100/4G/256GB PCIe SSD/W11/FHD/14) </a> </h5> <span class="nick"> 多色任選★金屬機身高質感ACER Swift 1 SF114-34-C1MV 粉輕1.3 kg ∥ 金屬機身 ▼輕巧隨行▼時尚潮品↘搶！ 處理器：intel® celeron® quad core processor n5100 顯示 </span> 
+          <h5 class="prod_name"> <a href="//24h.pchome.com.tw/prod/DHAECU-1900F7I31"> ACER Aspire 3 A315-59G-52QG 綠(i5-1235U/8G/MX550-2G/512G SSD/W11/FHD/15.6) </a> </h5> <span class="nick"> MX550獨顯強效▼獨立數字鍵ACER Aspire 3 A315-59G-52QG 綠i5-1235U ∥ MX550-2G ∥ 8G ∥ 512G SSD ✨外在有型，內在有力！✨ 🔸 強效能，intel 12代+mx550獨立顯卡 </span> 
           <ul id="bookInfo"> 
           </ul> 
-          <ul id="marketing_DHAEDU-1900FCOOL" class="tag_box s_marketing"> 
+          <ul id="marketing_DHAECU-1900F7I31" class="tag_box s_marketing"> 
+           <li> <span class="sign"> 折價券 </span> </li> 
            <li> <span class="ico label-24h-new"> 24H到貨 </span> </li> 
-           <li> <span class="sign"> P幣 </span> </li> 
           </ul> 
          </dd> 
-         <dd class="c3f" id="button_DHAEDU-1900FCOOL" data-type="24hr"> 
+         <dd class="c3f" id="button_DHAECU-1900F7I31" data-type="24hr"> 
           <ul class="price_box"> 
-           <li> 網路價 <span class="price"> $ <span id="price_DHAEDU-1900FCOOL" class="value"> 10900 </span> </span> </li> 
+           <li> 網路價 <span class="price"> $ <span id="price_DHAECU-1900F7I31" class="value"> 22900 </span> </span> </li> 
           </ul> 
           <ul class="fieldset_box"> 
-           <li class="site_btn add24hCart"> <select class="unblock spec"></select> <select class="unblock number"> <option value="1" selected> 1 </option> <option value="2"> 2 </option> <option value="3"> 3 </option> <option value="4"> 4 </option> <option value="5"> 5 </option> <option value="6"> 6 </option> <option value="7"> 7 </option> </select> <button type="button" class="unblock" _value="24hr"> <span> 加入 </span> <span> 購物車 </span> </button> </li> 
-          </ul> <a href="javascript:void(0);" class="trace" id="trace_DHAEDU-1900FCOOL"> 加入追蹤 </a> 
+           <li class="site_btn add24hCart"> <select class="unblock spec"></select> <select class="unblock number"> <option value="1" selected> 1 </option> <option value="2"> 2 </option> <option value="3"> 3 </option> <option value="4"> 4 </option> </select> <button type="button" class="unblock" _value="24hr"> <span> 加入 </span> <span> 購物車 </span> </button> </li> 
+          </ul> <a href="javascript:void(0);" class="trace" id="trace_DHAECU-1900F7I31"> 加入追蹤 </a> 
          </dd> 
         </dl> 
         <dl class="col3f" id="DHAEGA-1900F0MTJ"> 
-         <dd class="c1f"> <a class="prod_img" href="//24h.pchome.com.tw/prod/DHAEGA-1900F0MTJ"> <img src="//cs-f.ecimg.tw/items/DHAEGA1900F0MTJ/000001_1652174080.jpg" title="ACER Predator PH317-56-724M 黑(i7-12700H/16G/RTX3070Ti-8G/512G PCIe/W11/QHD/165Hz/17.3)" alt="ACER Predator PH317-56-724M 黑(i7-12700H/16G/RTX3070Ti-8G/512G PCIe/W11/QHD/165Hz/17.3)"> </a> 
+         <dd class="c1f"> <a class="prod_img" href="//24h.pchome.com.tw/prod/DHAEGA-1900F0MTJ"> <img src="//cs-e.ecimg.tw/items/DHAEGA1900F0MTJ/000001_1652174080.jpg" title="ACER Predator PH317-56-724M 黑(i7-12700H/16G/RTX3070Ti-8G/512G PCIe/W11/QHD/165Hz/17.3)" alt="ACER Predator PH317-56-724M 黑(i7-12700H/16G/RTX3070Ti-8G/512G PCIe/W11/QHD/165Hz/17.3)"> </a> 
          </dd> 
          <dd class="c2f"> 
           <ul class="tag_box s_label"> 
@@ -458,7 +430,6 @@ if (!SearchBot.isBot)
           </ul> 
           <ul id="marketing_DHAEGA-1900F0MTJ" class="tag_box s_marketing"> 
            <li> <span class="ico label-24h-new"> 24H到貨 </span> </li> 
-           <li> <span class="sign"> P幣 </span> </li> 
           </ul> 
          </dd> 
          <dd class="c3f" id="button_DHAEGA-1900F0MTJ" data-type="24hr"> 
@@ -471,7 +442,7 @@ if (!SearchBot.isBot)
          </dd> 
         </dl> 
         <dl class="col3f" id="DHAEH0-1900F28A0"> 
-         <dd class="c1f"> <a class="prod_img" href="//24h.pchome.com.tw/prod/DHAEH0-1900F28A0"> <img src="//cs-a.ecimg.tw/items/DHAEH01900F28A0/000001_1662343511.jpg" title="ACER Aspire 5 A514-55G-54Z3 灰(i5-1235U/8G/MX550-2G/512G PCIe/W11/FHD/14)" alt="ACER Aspire 5 A514-55G-54Z3 灰(i5-1235U/8G/MX550-2G/512G PCIe/W11/FHD/14)"> </a> 
+         <dd class="c1f"> <a class="prod_img" href="//24h.pchome.com.tw/prod/DHAEH0-1900F28A0"> <img src="//cs-f.ecimg.tw/items/DHAEH01900F28A0/000001_1662343511.jpg" title="ACER Aspire 5 A514-55G-54Z3 灰(i5-1235U/8G/MX550-2G/512G PCIe/W11/FHD/14)" alt="ACER Aspire 5 A514-55G-54Z3 灰(i5-1235U/8G/MX550-2G/512G PCIe/W11/FHD/14)"> </a> 
          </dd> 
          <dd class="c2f"> 
           <ul class="tag_box s_label"> 
@@ -482,7 +453,6 @@ if (!SearchBot.isBot)
           <ul id="marketing_DHAEH0-1900F28A0" class="tag_box s_marketing"> 
            <li> <span class="sign"> 折價券 </span> </li> 
            <li> <span class="ico label-24h-new"> 24H到貨 </span> </li> 
-           <li> <span class="sign"> P幣 </span> </li> 
           </ul> 
          </dd> 
          <dd class="c3f" id="button_DHAEH0-1900F28A0" data-type="24hr"> 
@@ -495,7 +465,7 @@ if (!SearchBot.isBot)
          </dd> 
         </dl> 
         <dl class="col3f" id="DHAEH0-1900FB0UP"> 
-         <dd class="c1f"> <a class="prod_img" href="//24h.pchome.com.tw/prod/DHAEH0-1900FB0UP"> <img src="//cs-b.ecimg.tw/items/DHAEH01900FB0UP/000001_1658212775.jpg" title="ACER Aspire 5 A514-55G-50KS 藍(i5-1235U/8G/MX550-2G/512G PCIe/W11/FHD/14)" alt="ACER Aspire 5 A514-55G-50KS 藍(i5-1235U/8G/MX550-2G/512G PCIe/W11/FHD/14)"> </a> 
+         <dd class="c1f"> <a class="prod_img" href="//24h.pchome.com.tw/prod/DHAEH0-1900FB0UP"> <img src="//cs-a.ecimg.tw/items/DHAEH01900FB0UP/000001_1658212775.jpg" title="ACER Aspire 5 A514-55G-50KS 藍(i5-1235U/8G/MX550-2G/512G PCIe/W11/FHD/14)" alt="ACER Aspire 5 A514-55G-50KS 藍(i5-1235U/8G/MX550-2G/512G PCIe/W11/FHD/14)"> </a> 
          </dd> 
          <dd class="c2f"> 
           <ul class="tag_box s_label"> 
@@ -506,7 +476,6 @@ if (!SearchBot.isBot)
           <ul id="marketing_DHAEH0-1900FB0UP" class="tag_box s_marketing"> 
            <li> <span class="sign"> 折價券 </span> </li> 
            <li> <span class="ico label-24h-new"> 24H到貨 </span> </li> 
-           <li> <span class="sign"> P幣 </span> </li> 
           </ul> 
          </dd> 
          <dd class="c3f" id="button_DHAEH0-1900FB0UP" data-type="24hr"> 
@@ -519,7 +488,7 @@ if (!SearchBot.isBot)
          </dd> 
         </dl> 
         <dl class="col3f" id="DHAEH0-1900FB0RO"> 
-         <dd class="c1f"> <a class="prod_img" href="//24h.pchome.com.tw/prod/DHAEH0-1900FB0RO"> <img src="//cs-c.ecimg.tw/items/DHAEH01900FB0RO/000001_1679537567.jpg" title="ACER Aspire 5 A514-55-54JP 紅(i5-1235U/8G/Iris Xe Graphics/512G PCIe/W11/FHD/14)" alt="ACER Aspire 5 A514-55-54JP 紅(i5-1235U/8G/Iris Xe Graphics/512G PCIe/W11/FHD/14)"> </a> 
+         <dd class="c1f"> <a class="prod_img" href="//24h.pchome.com.tw/prod/DHAEH0-1900FB0RO"> <img src="//cs-b.ecimg.tw/items/DHAEH01900FB0RO/000001_1679537567.jpg" title="ACER Aspire 5 A514-55-54JP 紅(i5-1235U/8G/Iris Xe Graphics/512G PCIe/W11/FHD/14)" alt="ACER Aspire 5 A514-55-54JP 紅(i5-1235U/8G/Iris Xe Graphics/512G PCIe/W11/FHD/14)"> </a> 
          </dd> 
          <dd class="c2f"> 
           <ul class="tag_box s_label"> 
@@ -530,7 +499,6 @@ if (!SearchBot.isBot)
           <ul id="marketing_DHAEH0-1900FB0RO" class="tag_box s_marketing"> 
            <li> <span class="sign"> 折價券 </span> </li> 
            <li> <span class="ico label-24h-new"> 24H到貨 </span> </li> 
-           <li> <span class="sign"> P幣 </span> </li> 
           </ul> 
          </dd> 
          <dd class="c3f" id="button_DHAEH0-1900FB0RO" data-type="24hr"> 
@@ -543,7 +511,7 @@ if (!SearchBot.isBot)
          </dd> 
         </dl> 
         <dl class="col3f" id="DHAEFC-1900FOA0M"> 
-         <dd class="c1f"> <a class="prod_img" href="//24h.pchome.com.tw/prod/DHAEFC-1900FOA0M"> <img src="//cs-d.ecimg.tw/items/DHAEFC1900FOA0M/000001_1681267751.jpg" title="ACER Aspire3 A317-33-C6ZM 銀(N5100/8G/256G SSD+1T/W11/FHD/17.3)" alt="ACER Aspire3 A317-33-C6ZM 銀(N5100/8G/256G SSD+1T/W11/FHD/17.3)"> </a> 
+         <dd class="c1f"> <a class="prod_img" href="//24h.pchome.com.tw/prod/DHAEFC-1900FOA0M"> <img src="//cs-c.ecimg.tw/items/DHAEFC1900FOA0M/000001_1681267751.jpg" title="ACER Aspire3 A317-33-C6ZM 銀(N5100/8G/256G SSD+1T/W11/FHD/17.3)" alt="ACER Aspire3 A317-33-C6ZM 銀(N5100/8G/256G SSD+1T/W11/FHD/17.3)"> </a> 
          </dd> 
          <dd class="c2f"> 
           <ul class="tag_box s_label"> 
@@ -553,7 +521,6 @@ if (!SearchBot.isBot)
           </ul> 
           <ul id="marketing_DHAEFC-1900FOA0M" class="tag_box s_marketing"> 
            <li> <span class="ico label-24h-new"> 24H到貨 </span> </li> 
-           <li> <span class="sign"> P幣 </span> </li> 
           </ul> 
          </dd> 
          <dd class="c3f" id="button_DHAEFC-1900FOA0M" data-type="24hr"> 
@@ -561,12 +528,12 @@ if (!SearchBot.isBot)
            <li> 網路價 <span class="price"> $ <span id="price_DHAEFC-1900FOA0M" class="value"> 13900 </span> </span> </li> 
           </ul> 
           <ul class="fieldset_box"> 
-           <li class="site_btn add24hCart"> <select class="unblock spec"></select> <select class="unblock number"> <option value="1" selected> 1 </option> <option value="2"> 2 </option> <option value="3"> 3 </option> <option value="4"> 4 </option> <option value="5"> 5 </option> <option value="6"> 6 </option> <option value="7"> 7 </option> <option value="8"> 8 </option> </select> <button type="button" class="unblock" _value="24hr"> <span> 加入 </span> <span> 購物車 </span> </button> </li> 
+           <li class="site_btn add24hCart"> <select class="unblock spec"></select> <select class="unblock number"> <option value="1" selected> 1 </option> <option value="2"> 2 </option> <option value="3"> 3 </option> <option value="4"> 4 </option> </select> <button type="button" class="unblock" _value="24hr"> <span> 加入 </span> <span> 購物車 </span> </button> </li> 
           </ul> <a href="javascript:void(0);" class="trace" id="trace_DHAEFC-1900FOA0M"> 加入追蹤 </a> 
          </dd> 
         </dl> 
         <dl class="col3f" id="DHAEHH-A900G1K7W"> 
-         <dd class="c1f"> <a class="prod_img" href="//24h.pchome.com.tw/prod/DHAEHH-A900G1K7W"> <img src="//cs-e.ecimg.tw/items/DHAEHHA900G1K7W/000001_1680747315.jpg" title="ACER Aspire5 A517-52-57JX 銀(i5-1135G7/4G/256G PCIe+1T/W11/FHD/17.3)" alt="ACER Aspire5 A517-52-57JX 銀(i5-1135G7/4G/256G PCIe+1T/W11/FHD/17.3)"> </a> 
+         <dd class="c1f"> <a class="prod_img" href="//24h.pchome.com.tw/prod/DHAEHH-A900G1K7W"> <img src="//cs-d.ecimg.tw/items/DHAEHHA900G1K7W/000001_1680747315.jpg" title="ACER Aspire5 A517-52-57JX 銀(i5-1135G7/4G/256G PCIe+1T/W11/FHD/17.3)" alt="ACER Aspire5 A517-52-57JX 銀(i5-1135G7/4G/256G PCIe+1T/W11/FHD/17.3)"> </a> 
          </dd> 
          <dd class="c2f"> 
           <ul class="tag_box s_label"> 
@@ -577,7 +544,6 @@ if (!SearchBot.isBot)
           <ul id="marketing_DHAEHH-A900G1K7W" class="tag_box s_marketing"> 
            <li> <span class="sign"> 折價券 </span> </li> 
            <li> <span class="ico label-24h-new"> 24H到貨 </span> </li> 
-           <li> <span class="sign"> P幣 </span> </li> 
           </ul> 
          </dd> 
          <dd class="c3f" id="button_DHAEHH-A900G1K7W" data-type="24hr"> 
@@ -589,31 +555,8 @@ if (!SearchBot.isBot)
           </ul> <a href="javascript:void(0);" class="trace" id="trace_DHAEHH-A900G1K7W"> 加入追蹤 </a> 
          </dd> 
         </dl> 
-        <dl class="col3f" id="DHAEDU-1900FCOWR"> 
-         <dd class="c1f"> <a class="prod_img" href="//24h.pchome.com.tw/prod/DHAEDU-1900FCOWR"> <img src="//cs-f.ecimg.tw/items/DHAEDU1900FCOWR/000001_1662521584.jpg" title="ACER Swift 1 SF114-34-C9EA 銀(N5100/4G/256GB PCIe SSD/W11/FHD/14)" alt="ACER Swift 1 SF114-34-C9EA 銀(N5100/4G/256GB PCIe SSD/W11/FHD/14)"> </a> 
-         </dd> 
-         <dd class="c2f"> 
-          <ul class="tag_box s_label"> 
-          </ul> 
-          <h5 class="prod_name"> <a href="//24h.pchome.com.tw/prod/DHAEDU-1900FCOWR"> ACER Swift 1 SF114-34-C9EA 銀(N5100/4G/256GB PCIe SSD/W11/FHD/14) </a> </h5> <span class="nick"> 多色任選★金屬機身高質感ACER Swift 1 SF114-34-C9EA 銀輕1.3 kg ∥ 金屬機身 ∥ 指紋辨識 ▼輕巧隨行▼時尚潮品↘搶！ 處理器：intel® celeron® quad core processor n5 </span> 
-          <ul id="bookInfo"> 
-          </ul> 
-          <ul id="marketing_DHAEDU-1900FCOWR" class="tag_box s_marketing"> 
-           <li> <span class="ico label-24h-new"> 24H到貨 </span> </li> 
-           <li> <span class="sign"> P幣 </span> </li> 
-          </ul> 
-         </dd> 
-         <dd class="c3f" id="button_DHAEDU-1900FCOWR" data-type="24hr"> 
-          <ul class="price_box"> 
-           <li> 網路價 <span class="price"> $ <span id="price_DHAEDU-1900FCOWR" class="value"> 10900 </span> </span> </li> 
-          </ul> 
-          <ul class="fieldset_box"> 
-           <li class="site_btn add24hCart"> <select class="unblock spec"></select> <select class="unblock number"> <option value="1" selected> 1 </option> <option value="2"> 2 </option> </select> <button type="button" class="unblock" _value="24hr"> <span> 加入 </span> <span> 購物車 </span> </button> </li> 
-          </ul> <a href="javascript:void(0);" class="trace" id="trace_DHAEDU-1900FCOWR"> 加入追蹤 </a> 
-         </dd> 
-        </dl> 
         <dl class="col3f" id="DHAECU-1900G2MPB"> 
-         <dd class="c1f"> <a class="prod_img" href="//24h.pchome.com.tw/prod/DHAECU-1900G2MPB"> <img src="//cs-a.ecimg.tw/items/DHAECU1900G2MPB/000001_1683252580.jpg" title="ACER Aspire 3 A315-59-59UD 銀(i5-1235U/8G/512G SSD/W11/FHD/15.6)" alt="ACER Aspire 3 A315-59-59UD 銀(i5-1235U/8G/512G SSD/W11/FHD/15.6)"> </a> 
+         <dd class="c1f"> <a class="prod_img" href="//24h.pchome.com.tw/prod/DHAECU-1900G2MPB"> <img src="//cs-e.ecimg.tw/items/DHAECU1900G2MPB/000001_1683252580.jpg" title="ACER Aspire 3 A315-59-59UD 銀(i5-1235U/8G/512G SSD/W11/FHD/15.6)" alt="ACER Aspire 3 A315-59-59UD 銀(i5-1235U/8G/512G SSD/W11/FHD/15.6)"> </a> 
          </dd> 
          <dd class="c2f"> 
           <ul class="tag_box s_label"> 
@@ -623,7 +566,6 @@ if (!SearchBot.isBot)
           </ul> 
           <ul id="marketing_DHAECU-1900G2MPB" class="tag_box s_marketing"> 
            <li> <span class="ico label-24h-new"> 24H到貨 </span> </li> 
-           <li> <span class="sign"> P幣 </span> </li> 
           </ul> 
          </dd> 
          <dd class="c3f" id="button_DHAECU-1900G2MPB" data-type="24hr"> 
@@ -631,12 +573,35 @@ if (!SearchBot.isBot)
            <li> 網路價 <span class="price"> $ <span id="price_DHAECU-1900G2MPB" class="value"> 16900 </span> </span> </li> 
           </ul> 
           <ul class="fieldset_box"> 
-           <li class="site_btn add24hCart"> <select class="unblock spec"></select> <select class="unblock number"> <option value="1" selected> 1 </option> <option value="2"> 2 </option> <option value="3"> 3 </option> <option value="4"> 4 </option> <option value="5"> 5 </option> <option value="6"> 6 </option> <option value="7"> 7 </option> <option value="8"> 8 </option> <option value="9"> 9 </option> <option value="10"> 10 </option> <option value="11"> 11 </option> <option value="12"> 12 </option> <option value="13"> 13 </option> <option value="14"> 14 </option> <option value="15"> 15 </option> <option value="16"> 16 </option> <option value="17"> 17 </option> </select> <button type="button" class="unblock" _value="24hr"> <span> 加入 </span> <span> 購物車 </span> </button> </li> 
+           <li class="site_btn add24hCart"> <select class="unblock spec"></select> <select class="unblock number"> <option value="1" selected> 1 </option> <option value="2"> 2 </option> <option value="3"> 3 </option> <option value="4"> 4 </option> <option value="5"> 5 </option> <option value="6"> 6 </option> <option value="7"> 7 </option> <option value="8"> 8 </option> <option value="9"> 9 </option> </select> <button type="button" class="unblock" _value="24hr"> <span> 加入 </span> <span> 購物車 </span> </button> </li> 
           </ul> <a href="javascript:void(0);" class="trace" id="trace_DHAECU-1900G2MPB"> 加入追蹤 </a> 
          </dd> 
         </dl> 
+        <dl class="col3f" id="DHAEH0-1900FB0TA"> 
+         <dd class="c1f"> <a class="prod_img" href="//24h.pchome.com.tw/prod/DHAEH0-1900FB0TA"> <img src="//cs-f.ecimg.tw/items/DHAEH01900FB0TA/000001_1683166443.jpg" title="ACER Aspire 5 A514-55-54WP 金(i5-1235U/8G/Iris Xe Graphics/512G PCIe/W11/FHD/14)" alt="ACER Aspire 5 A514-55-54WP 金(i5-1235U/8G/Iris Xe Graphics/512G PCIe/W11/FHD/14)"> </a> 
+         </dd> 
+         <dd class="c2f"> 
+          <ul class="tag_box s_label"> 
+          </ul> 
+          <h5 class="prod_name"> <a href="//24h.pchome.com.tw/prod/DHAEH0-1900FB0TA"> ACER Aspire 5 A514-55-54WP 金(i5-1235U/8G/Iris Xe Graphics/512G PCIe/W11/FHD/14) </a> </h5> <span class="nick"> 12代i5★高效美型文書ACER Aspire 5 A514-55-54WP 金i5-1235U ∥ 8G ∥ 512G PCIe SSD ∥ 14" ✨內外兼具，強大無比 ✨ 🔸 高效能，intel 12代10核、12執行緒 🔸 </span> 
+          <ul id="bookInfo"> 
+          </ul> 
+          <ul id="marketing_DHAEH0-1900FB0TA" class="tag_box s_marketing"> 
+           <li> <span class="sign"> 折價券 </span> </li> 
+           <li> <span class="ico label-24h-new"> 24H到貨 </span> </li> 
+          </ul> 
+         </dd> 
+         <dd class="c3f" id="button_DHAEH0-1900FB0TA" data-type="24hr"> 
+          <ul class="price_box"> 
+           <li> 網路價 <span class="price"> $ <span id="price_DHAEH0-1900FB0TA" class="value"> 19900 </span> </span> </li> 
+          </ul> 
+          <ul class="fieldset_box"> 
+           <li class="site_btn orderReplenish"> <select class="unblock spec"></select> <select class="unblock number"></select> <button type="button" class="unblock" _value="24hr"> 售完，補貨中！ </button> </li> 
+          </ul> <a href="javascript:void(0);" class="trace" id="trace_DHAEH0-1900FB0TA"> 加入追蹤 </a> 
+         </dd> 
+        </dl> 
         <dl class="col3f" id="DHAECU-1900F7I3C"> 
-         <dd class="c1f"> <a class="prod_img" href="//24h.pchome.com.tw/prod/DHAECU-1900F7I3C"> <img src="//cs-b.ecimg.tw/items/DHAECU1900F7I3C/000001_1655867489.jpg" title="ACER Aspire 3 A315-59G-52Q0 紫(i5-1235U/8G/MX550-2G/512G SSD/W11/FHD/15.6)" alt="ACER Aspire 3 A315-59G-52Q0 紫(i5-1235U/8G/MX550-2G/512G SSD/W11/FHD/15.6)"> </a> 
+         <dd class="c1f"> <a class="prod_img" href="//24h.pchome.com.tw/prod/DHAECU-1900F7I3C"> <img src="//cs-a.ecimg.tw/items/DHAECU1900F7I3C/000001_1655867489.jpg" title="ACER Aspire 3 A315-59G-52Q0 紫(i5-1235U/8G/MX550-2G/512G SSD/W11/FHD/15.6)" alt="ACER Aspire 3 A315-59G-52Q0 紫(i5-1235U/8G/MX550-2G/512G SSD/W11/FHD/15.6)"> </a> 
          </dd> 
          <dd class="c2f"> 
           <ul class="tag_box s_label"> 
@@ -646,7 +611,6 @@ if (!SearchBot.isBot)
           </ul> 
           <ul id="marketing_DHAECU-1900F7I3C" class="tag_box s_marketing"> 
            <li> <span class="ico label-24h-new"> 24H到貨 </span> </li> 
-           <li> <span class="sign"> P幣 </span> </li> 
           </ul> 
          </dd> 
          <dd class="c3f" id="button_DHAECU-1900F7I3C" data-type="24hr"> 
@@ -658,56 +622,8 @@ if (!SearchBot.isBot)
           </ul> <a href="javascript:void(0);" class="trace" id="trace_DHAECU-1900F7I3C"> 加入追蹤 </a> 
          </dd> 
         </dl> 
-        <div id="ScrollNav"> 
-        </div> 
-        <dl class="col3f" id="DHAEGD-1900G68QR"> 
-         <dd class="c1f"> <a class="prod_img" href="//24h.pchome.com.tw/prod/DHAEGD-1900G68QR"> <img src="//cs-c.ecimg.tw/items/DHAEGD1900G68QR/000001_1684204261.jpg" title="ACER Aspire A715-76G-506G 黑(i5-12450H/8G/RTX3050-4GB/512G PCIe/W11/FHD/15.6)" alt="ACER Aspire A715-76G-506G 黑(i5-12450H/8G/RTX3050-4GB/512G PCIe/W11/FHD/15.6)"> </a> 
-         </dd> 
-         <dd class="c2f"> 
-          <ul class="tag_box s_label"> 
-          </ul> 
-          <h5 class="prod_name"> <a href="//24h.pchome.com.tw/prod/DHAEGD-1900G68QR"> ACER Aspire A715-76G-506G 黑(i5-12450H/8G/RTX3050-4GB/512G PCIe/W11/FHD/15.6) </a> </h5> <span class="nick"> PChome獨家★12代i5★RTX3050ACER Aspire A715-76G-506G 黑i5-12450H ∥ RTX3050 ∥ 512G PCIe 商品特色 ★可支援雙ddr4+雙ssd ★配備thunderbolt 4 </span> 
-          <ul id="bookInfo"> 
-          </ul> 
-          <ul id="marketing_DHAEGD-1900G68QR" class="tag_box s_marketing"> 
-           <li> <span class="ico label-24h-new"> 24H到貨 </span> </li> 
-           <li> <span class="sign"> P幣 </span> </li> 
-          </ul> 
-         </dd> 
-         <dd class="c3f" id="button_DHAEGD-1900G68QR" data-type="24hr"> 
-          <ul class="price_box"> 
-           <li> 網路價 <span class="price"> $ <span id="price_DHAEGD-1900G68QR" class="value"> 23900 </span> </span> </li> 
-          </ul> 
-          <ul class="fieldset_box"> 
-           <li class="site_btn add24hCart"> <select class="unblock spec"></select> <select class="unblock number"> <option value="1" selected> 1 </option> <option value="2"> 2 </option> <option value="3"> 3 </option> <option value="4"> 4 </option> <option value="5"> 5 </option> <option value="6"> 6 </option> <option value="7"> 7 </option> <option value="8"> 8 </option> <option value="9"> 9 </option> <option value="10"> 10 </option> <option value="11"> 11 </option> <option value="12"> 12 </option> <option value="13"> 13 </option> <option value="14"> 14 </option> <option value="15"> 15 </option> <option value="16"> 16 </option> <option value="17"> 17 </option> <option value="18"> 18 </option> <option value="19"> 19 </option> <option value="20"> 20 </option> </select> <button type="button" class="unblock" _value="24hr"> <span> 加入 </span> <span> 購物車 </span> </button> </li> 
-          </ul> <a href="javascript:void(0);" class="trace" id="trace_DHAEGD-1900G68QR"> 加入追蹤 </a> 
-         </dd> 
-        </dl> 
-        <dl class="col3f" id="DHAEBP-1900G9UBW"> 
-         <dd class="c1f"> <a class="prod_img" href="//24h.pchome.com.tw/prod/DHAEBP-1900G9UBW"> <img src="//cs-d.ecimg.tw/items/DHAEBP1900G9UBW/000001_1683525890.jpg" title="ACER Swift3 SF314-511-513K 銀(i5-1135G7/16G/512G PCIe/W11/FHD/14)" alt="ACER Swift3 SF314-511-513K 銀(i5-1135G7/16G/512G PCIe/W11/FHD/14)"> </a> 
-         </dd> 
-         <dd class="c2f"> 
-          <ul class="tag_box s_label"> 
-          </ul> 
-          <h5 class="prod_name"> <a href="//24h.pchome.com.tw/prod/DHAEBP-1900G9UBW"> ACER Swift3 SF314-511-513K 銀(i5-1135G7/16G/512G PCIe/W11/FHD/14) </a> </h5> <span class="nick"> 輕薄1.2kg★intel EVO認證ACER SF314-511-513K 銀 14吋輕薄窄邊筆電11代i5 ∥ 512G PCIe SSD ∥ 1.2kg 處理器：intel® core™ i5-1135g7 記憶體：16gb lpd </span> 
-          <ul id="bookInfo"> 
-          </ul> 
-          <ul id="marketing_DHAEBP-1900G9UBW" class="tag_box s_marketing"> 
-           <li> <span class="ico label-24h-new"> 24H到貨 </span> </li> 
-           <li> <span class="sign"> P幣 </span> </li> 
-          </ul> 
-         </dd> 
-         <dd class="c3f" id="button_DHAEBP-1900G9UBW" data-type="24hr"> 
-          <ul class="price_box"> 
-           <li> 網路價 <span class="price"> $ <span id="price_DHAEBP-1900G9UBW" class="value"> 19900 </span> </span> </li> 
-          </ul> 
-          <ul class="fieldset_box"> 
-           <li class="site_btn add24hCart"> <select class="unblock spec"></select> <select class="unblock number"> <option value="1" selected> 1 </option> <option value="2"> 2 </option> <option value="3"> 3 </option> <option value="4"> 4 </option> <option value="5"> 5 </option> <option value="6"> 6 </option> <option value="7"> 7 </option> <option value="8"> 8 </option> <option value="9"> 9 </option> <option value="10"> 10 </option> <option value="11"> 11 </option> <option value="12"> 12 </option> <option value="13"> 13 </option> <option value="14"> 14 </option> <option value="15"> 15 </option> <option value="16"> 16 </option> <option value="17"> 17 </option> <option value="18"> 18 </option> <option value="19"> 19 </option> <option value="20"> 20 </option> </select> <button type="button" class="unblock" _value="24hr"> <span> 加入 </span> <span> 購物車 </span> </button> </li> 
-          </ul> <a href="javascript:void(0);" class="trace" id="trace_DHAEBP-1900G9UBW"> 加入追蹤 </a> 
-         </dd> 
-        </dl> 
         <dl class="col3f" id="DHAEHH-1900G2MU6"> 
-         <dd class="c1f"> <a class="prod_img" href="//24h.pchome.com.tw/prod/DHAEHH-1900G2MU6"> <img src="//cs-e.ecimg.tw/items/DHAEHH1900G2MU6/000001_1683597435.jpg" title="ACER Aspire5 A517-52-57JX 銀(i5-1135G7/4G/256G PCIe+1T/W11/FHD/17.3)" alt="ACER Aspire5 A517-52-57JX 銀(i5-1135G7/4G/256G PCIe+1T/W11/FHD/17.3)"> </a> 
+         <dd class="c1f"> <a class="prod_img" href="//24h.pchome.com.tw/prod/DHAEHH-1900G2MU6"> <img src="//cs-b.ecimg.tw/items/DHAEHH1900G2MU6/000001_1684464057.jpg" title="ACER Aspire5 A517-52-57JX 銀(i5-1135G7/4G/256G PCIe+1T/W11/FHD/17.3)" alt="ACER Aspire5 A517-52-57JX 銀(i5-1135G7/4G/256G PCIe+1T/W11/FHD/17.3)"> </a> 
          </dd> 
          <dd class="c2f"> 
           <ul class="tag_box s_label"> 
@@ -717,7 +633,6 @@ if (!SearchBot.isBot)
           </ul> 
           <ul id="marketing_DHAEHH-1900G2MU6" class="tag_box s_marketing"> 
            <li> <span class="ico label-24h-new"> 24H到貨 </span> </li> 
-           <li> <span class="sign"> P幣 </span> </li> 
           </ul> 
          </dd> 
          <dd class="c3f" id="button_DHAEHH-1900G2MU6" data-type="24hr"> 
@@ -729,8 +644,54 @@ if (!SearchBot.isBot)
           </ul> <a href="javascript:void(0);" class="trace" id="trace_DHAEHH-1900G2MU6"> 加入追蹤 </a> 
          </dd> 
         </dl> 
+        <div id="ScrollNav"> 
+        </div> 
+        <dl class="col3f" id="DHAEBP-1900G9UBW"> 
+         <dd class="c1f"> <a class="prod_img" href="//24h.pchome.com.tw/prod/DHAEBP-1900G9UBW"> <img src="//cs-c.ecimg.tw/items/DHAEBP1900G9UBW/000001_1684718844.jpg" title="ACER Swift3 SF314-511-513K 銀(i5-1135G7/16G/512G PCIe/W11/FHD/14)" alt="ACER Swift3 SF314-511-513K 銀(i5-1135G7/16G/512G PCIe/W11/FHD/14)"> </a> 
+         </dd> 
+         <dd class="c2f"> 
+          <ul class="tag_box s_label"> 
+          </ul> 
+          <h5 class="prod_name"> <a href="//24h.pchome.com.tw/prod/DHAEBP-1900G9UBW"> ACER Swift3 SF314-511-513K 銀(i5-1135G7/16G/512G PCIe/W11/FHD/14) </a> </h5> <span class="nick"> 輕薄1.2kg★intel EVO認證ACER SF314-511-513K 銀 14吋輕薄窄邊筆電11代i5 ∥ 512G PCIe SSD ∥ 1.2kg 處理器：intel® core™ i5-1135g7 記憶體：16gb lpd </span> 
+          <ul id="bookInfo"> 
+          </ul> 
+          <ul id="marketing_DHAEBP-1900G9UBW" class="tag_box s_marketing"> 
+           <li> <span class="ico label-24h-new"> 24H到貨 </span> </li> 
+          </ul> 
+         </dd> 
+         <dd class="c3f" id="button_DHAEBP-1900G9UBW" data-type="24hr"> 
+          <ul class="price_box"> 
+           <li> 網路價 <span class="price"> $ <span id="price_DHAEBP-1900G9UBW" class="value"> 19900 </span> </span> </li> 
+          </ul> 
+          <ul class="fieldset_box"> 
+           <li class="site_btn add24hCart"> <select class="unblock spec"></select> <select class="unblock number"> <option value="1" selected> 1 </option> <option value="2"> 2 </option> <option value="3"> 3 </option> <option value="4"> 4 </option> <option value="5"> 5 </option> <option value="6"> 6 </option> <option value="7"> 7 </option> <option value="8"> 8 </option> <option value="9"> 9 </option> <option value="10"> 10 </option> <option value="11"> 11 </option> <option value="12"> 12 </option> <option value="13"> 13 </option> <option value="14"> 14 </option> <option value="15"> 15 </option> <option value="16"> 16 </option> <option value="17"> 17 </option> <option value="18"> 18 </option> <option value="19"> 19 </option> <option value="20"> 20 </option> </select> <button type="button" class="unblock" _value="24hr"> <span> 加入 </span> <span> 購物車 </span> </button> </li> 
+          </ul> <a href="javascript:void(0);" class="trace" id="trace_DHAEBP-1900G9UBW"> 加入追蹤 </a> 
+         </dd> 
+        </dl> 
+        <dl class="col3f" id="DHAEGD-1900G68QR"> 
+         <dd class="c1f"> <a class="prod_img" href="//24h.pchome.com.tw/prod/DHAEGD-1900G68QR"> <img src="//cs-d.ecimg.tw/items/DHAEGD1900G68QR/000001_1684402512.jpg" title="ACER Aspire A715-76G-506G 黑(i5-12450H/8G/RTX3050-4GB/512G PCIe/W11/FHD/15.6)" alt="ACER Aspire A715-76G-506G 黑(i5-12450H/8G/RTX3050-4GB/512G PCIe/W11/FHD/15.6)"> </a> 
+         </dd> 
+         <dd class="c2f"> 
+          <ul class="tag_box s_label"> 
+          </ul> 
+          <h5 class="prod_name"> <a href="//24h.pchome.com.tw/prod/DHAEGD-1900G68QR"> ACER Aspire A715-76G-506G 黑(i5-12450H/8G/RTX3050-4GB/512G PCIe/W11/FHD/15.6) </a> </h5> <span class="nick"> ▲線上資訊展▲ACER Aspire A715-76G-506G 黑i5-12450H ∥ RTX3050 ∥ 512G PCIe 《火熱開搶☆狂殺特賣》 開始：０５／１５（二)１１：００ 結束：０５／２２（四）１１：００ 網路價$ </span> 
+          <ul id="bookInfo"> 
+          </ul> 
+          <ul id="marketing_DHAEGD-1900G68QR" class="tag_box s_marketing"> 
+           <li> <span class="ico label-24h-new"> 24H到貨 </span> </li> 
+          </ul> 
+         </dd> 
+         <dd class="c3f" id="button_DHAEGD-1900G68QR" data-type="24hr"> 
+          <ul class="price_box"> 
+           <li> 網路價 <span class="price"> $ <span id="price_DHAEGD-1900G68QR" class="value"> 23900 </span> </span> </li> 
+          </ul> 
+          <ul class="fieldset_box"> 
+           <li class="site_btn add24hCart"> <select class="unblock spec"></select> <select class="unblock number"> <option value="1" selected> 1 </option> <option value="2"> 2 </option> <option value="3"> 3 </option> <option value="4"> 4 </option> <option value="5"> 5 </option> <option value="6"> 6 </option> <option value="7"> 7 </option> <option value="8"> 8 </option> <option value="9"> 9 </option> <option value="10"> 10 </option> <option value="11"> 11 </option> <option value="12"> 12 </option> <option value="13"> 13 </option> <option value="14"> 14 </option> <option value="15"> 15 </option> <option value="16"> 16 </option> <option value="17"> 17 </option> <option value="18"> 18 </option> <option value="19"> 19 </option> <option value="20"> 20 </option> </select> <button type="button" class="unblock" _value="24hr"> <span> 加入 </span> <span> 購物車 </span> </button> </li> 
+          </ul> <a href="javascript:void(0);" class="trace" id="trace_DHAEGD-1900G68QR"> 加入追蹤 </a> 
+         </dd> 
+        </dl> 
         <dl class="col3f" id="DHAEGB-1900G2MEI"> 
-         <dd class="c1f"> <a class="prod_img" href="//24h.pchome.com.tw/prod/DHAEGB-1900G2MEI"> <img src="//cs-f.ecimg.tw/items/DHAEGB1900G2MEI/000001_1682992892.jpg" title="ACER Nitro5 AN517-55-74L0 黑(i7-12700H/16G/RTX3050Ti-4G/512G PCIe/W11/FHD/165Hz/17.3)" alt="ACER Nitro5 AN517-55-74L0 黑(i7-12700H/16G/RTX3050Ti-4G/512G PCIe/W11/FHD/165Hz/17.3)"> </a> 
+         <dd class="c1f"> <a class="prod_img" href="//24h.pchome.com.tw/prod/DHAEGB-1900G2MEI"> <img src="//cs-e.ecimg.tw/items/DHAEGB1900G2MEI/000001_1682992892.jpg" title="ACER Nitro5 AN517-55-74L0 黑(i7-12700H/16G/RTX3050Ti-4G/512G PCIe/W11/FHD/165Hz/17.3)" alt="ACER Nitro5 AN517-55-74L0 黑(i7-12700H/16G/RTX3050Ti-4G/512G PCIe/W11/FHD/165Hz/17.3)"> </a> 
          </dd> 
          <dd class="c2f"> 
           <ul class="tag_box s_label"> 
@@ -740,7 +701,6 @@ if (!SearchBot.isBot)
           </ul> 
           <ul id="marketing_DHAEGB-1900G2MEI" class="tag_box s_marketing"> 
            <li> <span class="ico label-24h-new"> 24H到貨 </span> </li> 
-           <li> <span class="sign"> P幣 </span> </li> 
           </ul> 
          </dd> 
          <dd class="c3f" id="button_DHAEGB-1900G2MEI" data-type="24hr"> 
@@ -752,51 +712,71 @@ if (!SearchBot.isBot)
           </ul> <a href="javascript:void(0);" class="trace" id="trace_DHAEGB-1900G2MEI"> 加入追蹤 </a> 
          </dd> 
         </dl> 
-        <dl class="col3f" id="DHAEGB-1900F1SEF"> 
-         <dd class="c1f"> <a class="prod_img" href="//24h.pchome.com.tw/prod/DHAEGB-1900F1SEF"> <img src="//cs-a.ecimg.tw/items/DHAEGB1900F1SEF/000001_1680834163.jpg" title="ACER Nitro5 AN515-58-76FW 黑(i7-12700H/16G/RTX3050-4G/512G PCIe/W11/FHD/165Hz/15.6)" alt="ACER Nitro5 AN515-58-76FW 黑(i7-12700H/16G/RTX3050-4G/512G PCIe/W11/FHD/165Hz/15.6)"> </a> 
+        <dl class="col3f" id="DHAEBP-1900G2TJN"> 
+         <dd class="c1f"> <a class="prod_img" href="//24h.pchome.com.tw/prod/DHAEBP-1900G2TJN"> <img src="//cs-f.ecimg.tw/items/DHAEBP1900G2TJN/000001_1684120343.jpg" title="ACER Swift3 SF314-512-50JE 銀(i5-1240P/16G/512G PCIe/W11/QHD/14)" alt="ACER Swift3 SF314-512-50JE 銀(i5-1240P/16G/512G PCIe/W11/QHD/14)"> </a> 
          </dd> 
          <dd class="c2f"> 
           <ul class="tag_box s_label"> 
           </ul> 
-          <h5 class="prod_name"> <a href="//24h.pchome.com.tw/prod/DHAEGB-1900F1SEF"> ACER Nitro5 AN515-58-76FW 黑(i7-12700H/16G/RTX3050-4G/512G PCIe/W11/FHD/165Hz/15.6) </a> </h5> <span class="nick"> 12代i7★RTX3050滿血獨顯ACER Nitro5 AN515-58-76FW 黑i7-12700H ∥ RTX3050 ∥ 16G ∥ 512G PCIe ◢▆▅▄▃(๑•̀ㅂ•́)و✧▃▄▅▇◣ 滿血召喚電競魂，必須入手! </span> 
+          <h5 class="prod_name"> <a href="//24h.pchome.com.tw/prod/DHAEBP-1900G2TJN"> ACER Swift3 SF314-512-50JE 銀(i5-1240P/16G/512G PCIe/W11/QHD/14) </a> </h5> <span class="nick"> 輕薄1.25kg★intel EVO認證ACER Swift3 SF314-512-50JE 銀 14吋Intel® Core™ i5-1240P ∥ 16G ∥ 512G PCIe 處理器：intel® core™ i5-1240p 記 </span> 
           <ul id="bookInfo"> 
           </ul> 
-          <ul id="marketing_DHAEGB-1900F1SEF" class="tag_box s_marketing"> 
+          <ul id="marketing_DHAEBP-1900G2TJN" class="tag_box s_marketing"> 
            <li> <span class="ico label-24h-new"> 24H到貨 </span> </li> 
-           <li> <span class="sign"> P幣 </span> </li> 
           </ul> 
          </dd> 
-         <dd class="c3f" id="button_DHAEGB-1900F1SEF" data-type="24hr"> 
+         <dd class="c3f" id="button_DHAEBP-1900G2TJN" data-type="24hr"> 
           <ul class="price_box"> 
-           <li> 網路價 <span class="price"> $ <span id="price_DHAEGB-1900F1SEF" class="value"> 31900 </span> </span> </li> 
+           <li> 網路價 <span class="price"> $ <span id="price_DHAEBP-1900G2TJN" class="value"> 25900 </span> </span> </li> 
+          </ul> 
+          <ul class="fieldset_box"> 
+           <li class="site_btn add24hCart"> <select class="unblock spec"></select> <select class="unblock number"> <option value="1" selected> 1 </option> <option value="2"> 2 </option> <option value="3"> 3 </option> <option value="4"> 4 </option> <option value="5"> 5 </option> <option value="6"> 6 </option> <option value="7"> 7 </option> <option value="8"> 8 </option> </select> <button type="button" class="unblock" _value="24hr"> <span> 加入 </span> <span> 購物車 </span> </button> </li> 
+          </ul> <a href="javascript:void(0);" class="trace" id="trace_DHAEBP-1900G2TJN"> 加入追蹤 </a> 
+         </dd> 
+        </dl> 
+        <dl class="col3f" id="DHAEGB-1900FXZTM"> 
+         <dd class="c1f"> <a class="prod_img" href="//24h.pchome.com.tw/prod/DHAEGB-1900FXZTM"> <img src="//cs-a.ecimg.tw/items/DHAEGB1900FXZTM/000001_1683511869.jpg" title="ACER Nitro5 AN515-58-582W 黑(i5-12500H/8G/RTX3050-4G/512G PCIe/W11/FHD/144Hz/15.6)" alt="ACER Nitro5 AN515-58-582W 黑(i5-12500H/8G/RTX3050-4G/512G PCIe/W11/FHD/144Hz/15.6)"> </a> 
+         </dd> 
+         <dd class="c2f"> 
+          <ul class="tag_box s_label"> 
+          </ul> 
+          <h5 class="prod_name"> <a href="//24h.pchome.com.tw/prod/DHAEGB-1900FXZTM"> ACER Nitro5 AN515-58-582W 黑(i5-12500H/8G/RTX3050-4G/512G PCIe/W11/FHD/144Hz/15.6) </a> </h5> <span class="nick"> 12代i5★RTX3050滿血獨顯ACER Nitro5 AN515-58-582W 黑i5-12500H ∥ RTX3050-4G ∥ 8G ∥ 512G PCIe ∥ 15.6" ◢▆▅▄▃(๑•̀ㅂ•́)و✧▃▄▅▇◣ 滿血召喚 </span> 
+          <ul id="bookInfo"> 
+          </ul> 
+          <ul id="marketing_DHAEGB-1900FXZTM" class="tag_box s_marketing"> 
+           <li> <span class="ico label-24h-new"> 24H到貨 </span> </li> 
+          </ul> 
+         </dd> 
+         <dd class="c3f" id="button_DHAEGB-1900FXZTM" data-type="24hr"> 
+          <ul class="price_box"> 
+           <li> 網路價 <span class="price"> $ <span id="price_DHAEGB-1900FXZTM" class="value"> 25900 </span> </span> </li> 
           </ul> 
           <ul class="fieldset_box"> 
            <li class="site_btn add24hCart"> <select class="unblock spec"></select> <select class="unblock number"> <option value="1" selected> 1 </option> <option value="2"> 2 </option> <option value="3"> 3 </option> <option value="4"> 4 </option> <option value="5"> 5 </option> <option value="6"> 6 </option> <option value="7"> 7 </option> <option value="8"> 8 </option> <option value="9"> 9 </option> <option value="10"> 10 </option> <option value="11"> 11 </option> <option value="12"> 12 </option> <option value="13"> 13 </option> <option value="14"> 14 </option> <option value="15"> 15 </option> <option value="16"> 16 </option> <option value="17"> 17 </option> <option value="18"> 18 </option> <option value="19"> 19 </option> <option value="20"> 20 </option> </select> <button type="button" class="unblock" _value="24hr"> <span> 加入 </span> <span> 購物車 </span> </button> </li> 
-          </ul> <a href="javascript:void(0);" class="trace" id="trace_DHAEGB-1900F1SEF"> 加入追蹤 </a> 
+          </ul> <a href="javascript:void(0);" class="trace" id="trace_DHAEGB-1900FXZTM"> 加入追蹤 </a> 
          </dd> 
         </dl> 
-        <dl class="col3f" id="DHAEFK-A900EDM9C"> 
-         <dd class="c1f"> <a class="prod_img" href="//24h.pchome.com.tw/prod/DHAEFK-A900EDM9C"> <img src="//cs-b.ecimg.tw/items/DHAEFKA900EDM9C/000001_1681699111.jpg" title="ACER Extensa EX215-54G-76W2(i7-1165G7/8G/MX350-2G/512G PCIe+1TB/W10P/FHD/15.6)" alt="ACER Extensa EX215-54G-76W2(i7-1165G7/8G/MX350-2G/512G PCIe+1TB/W10P/FHD/15.6)"> </a> 
+        <dl class="col3f" id="DHAEFQ-A900FV6YA"> 
+         <dd class="c1f"> <a class="prod_img" href="//24h.pchome.com.tw/prod/DHAEFQ-A900FV6YA"> <img src="//cs-b.ecimg.tw/items/DHAEFQA900FV6YA/000001_1672908691.jpg" title="ACER TravelMate TMP214-53-76JB(i7-1165G7/8GB/512GB PCIe/W11DGR/FHD/14)" alt="ACER TravelMate TMP214-53-76JB(i7-1165G7/8GB/512GB PCIe/W11DGR/FHD/14)"> </a> 
          </dd> 
          <dd class="c2f"> 
           <ul class="tag_box s_label"> 
           </ul> 
-          <h5 class="prod_name"> <a href="//24h.pchome.com.tw/prod/DHAEFK-A900EDM9C"> ACER Extensa EX215-54G-76W2(i7-1165G7/8G/MX350-2G/512G PCIe+1TB/W10P/FHD/15.6) </a> </h5> <span class="nick"> MX350獨顯▼加送一年延伸保固Acer Extensa EX215-54G-76W211代i7 ∥ 512G PCIe+1TB ∥ 窄邊框 處理器：intel® core™ i7-1165g7 記憶體：8gb ddr4 螢幕：15. </span> 
+          <h5 class="prod_name"> <a href="//24h.pchome.com.tw/prod/DHAEFQ-A900FV6YA"> ACER TravelMate TMP214-53-76JB(i7-1165G7/8GB/512GB PCIe/W11DGR/FHD/14) </a> </h5> <span class="nick"> 指紋辨識 軍規認證 Acer TravelMate TMP214-53-76JB11代i7 ∥ TPM安全晶片 ∥ Windows10Pro 處理器:intel® coretm i7-1165g7 顯示晶片:intel® iris® xe </span> 
           <ul id="bookInfo"> 
           </ul> 
-          <ul id="marketing_DHAEFK-A900EDM9C" class="tag_box s_marketing"> 
+          <ul id="marketing_DHAEFQ-A900FV6YA" class="tag_box s_marketing"> 
            <li> <span class="sign"> 折價券 </span> </li> 
            <li> <span class="ico label-24h-new"> 24H到貨 </span> </li> 
-           <li> <span class="sign"> P幣 </span> </li> 
           </ul> 
          </dd> 
-         <dd class="c3f" id="button_DHAEFK-A900EDM9C" data-type="24hr"> 
+         <dd class="c3f" id="button_DHAEFQ-A900FV6YA" data-type="24hr"> 
           <ul class="price_box"> 
-           <li> 網路價 <span class="price"> $ <span id="price_DHAEFK-A900EDM9C" class="value"> 24900 </span> </span> </li> 
+           <li> 網路價 <span class="price"> $ <span id="price_DHAEFQ-A900FV6YA" class="value"> 24500 </span> </span> </li> 
           </ul> 
           <ul class="fieldset_box"> 
-           <li class="site_btn add24hCart"> <select class="unblock spec"></select> <select class="unblock number"> <option value="1" selected> 1 </option> <option value="2"> 2 </option> <option value="3"> 3 </option> <option value="4"> 4 </option> </select> <button type="button" class="unblock" _value="24hr"> <span> 加入 </span> <span> 購物車 </span> </button> </li> 
-          </ul> <a href="javascript:void(0);" class="trace" id="trace_DHAEFK-A900EDM9C"> 加入追蹤 </a> 
+           <li class="site_btn add24hCart"> <select class="unblock spec"></select> <select class="unblock number"> <option value="1" selected> 1 </option> <option value="2"> 2 </option> <option value="3"> 3 </option> </select> <button type="button" class="unblock" _value="24hr"> <span> 加入 </span> <span> 購物車 </span> </button> </li> 
+          </ul> <a href="javascript:void(0);" class="trace" id="trace_DHAEFQ-A900FV6YA"> 加入追蹤 </a> 
          </dd> 
         </dl> 
        </div> 
@@ -941,6 +921,6 @@ try{$(document).on("click","#ItemContainer .prod_name \x3e a, #ItemContainer a.p
 try{$("#SwitchBar").on("click",".Scope",function(a){a.preventDefault();$(document).data("filter")&&($(document).data("filter").scope=$(this).data("VAL"),"mcr"==$(document).data("filter").scope&&dataLayer.push({event:"search_mercari",eventCategory:"search_mercari",eventAction:"24h_pc_filter"}))}).on("click",".Sort",function(a){if($(document).data("filter")){a="";switch($(this).data("VAL").PAR){case "sale":case "rnk":case "new":a=$(this).data("VAL").PAR;break;case "prc":a=$(this).data("VAL").PAR+"_"+
 $(this).data("VAL").ODR}a&&window.dataLayer&&window.dataLayer.push({event:"click-ga",eventCategory:"op_search_result_page",eventAction:"op_ranking",eventLabel:a})}})}catch(a){};
 //]]>
-    </script> <iframe style="display: none;" id="insider-worker" src="https://pchome24h.api.useinsider.com/worker-new.html" name="triggerPopUpOptIn"> </iframe>  
+    </script>  
  </body>
 </html>

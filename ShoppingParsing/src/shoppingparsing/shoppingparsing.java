@@ -48,6 +48,7 @@ import java.net.URL;
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.Queue;
+import javax.swing.GroupLayout;
 import javax.swing.JInternalFrame;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
@@ -79,10 +80,13 @@ public class shoppingparsing extends javax.swing.JFrame {
             return Integer.compare(this.price, other.price);
         }
     }
+    
+    
     public static LinkedList<product> pchome = new LinkedList<>();
     public static LinkedList<product> momo = new LinkedList<>();
-    public static Queue<LinkedList<product>> total;
-    private static transient javax.swing.GroupLayout layout;
+    public static LinkedList<product> prod_total = new LinkedList<product>(); 
+    public static Queue<LinkedList<product>> total = new LinkedList<>();
+    private transient GroupLayout groupLayout;
     /**
      * Creates new form main
      */
@@ -90,7 +94,9 @@ public class shoppingparsing extends javax.swing.JFrame {
         initComponents();
     }
     
-
+    class SerializableLinkedList<E> extends LinkedList<E> implements Serializable {
+        
+    }
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -231,12 +237,18 @@ public class shoppingparsing extends javax.swing.JFrame {
         } catch (ClassNotFoundException ex) {
             Logger.getLogger(shoppingparsing.class.getName()).log(Level.SEVERE, null, ex);
         }
-        
+                
         if(total == null) {
-            thread_execute(search, pchome_url, momo_url);
+//            thread_execute(search, pchome_url, momo_url);
         } else {
             for(LinkedList<product> data : total) {
-                if(search == data.get(0).search) break;
+                if(search == data.get(0).search) {
+                    prod_total = total.peek();
+                    for(int i = 0; i < prod_total.size(); i++) {ㄐ
+                        System.out.println(prod_total.get(i).price);
+                    }
+                    break;
+                }
                 else {
                     thread_execute(search, pchome_url, momo_url);
                 }
@@ -276,7 +288,7 @@ public class shoppingparsing extends javax.swing.JFrame {
                         fw2.write("Product " + (i) + ": \n" + "Name: " + name + "\nimage: " + img + "\nlink: " + link + "\nprice: "  + price + "\n");
                         String[] price_s = price.split(" ");
                         product pchome_store = new product(search, name, ("https:"+img), link, Integer.parseInt(price_s[1])); 
-                        pchome.add(pchome_store);
+                        prod_total.add(pchome_store);
                     }
                 } catch (NullPointerException e) {
                     System.out.println();
@@ -316,7 +328,7 @@ public class shoppingparsing extends javax.swing.JFrame {
                         fw2.write("Product " + (i+1) + ": \n" + "Name: " + name + "\nimage: " + img + "\nlink: " + link + "\nprice: "  + price + "\n");
                         String[] price_s = price.split("[\\s,]");
                         product momo_store = new product(search, name, img, link, Integer.parseInt(price_s[1]+price_s[2]));
-                        momo.add(momo_store);
+                        prod_total.add(momo_store);
                     }
                 } catch (NullPointerException e) {
                     System.out.println();
@@ -336,14 +348,13 @@ public class shoppingparsing extends javax.swing.JFrame {
             Logger.getLogger(shoppingparsing.class.getName()).log(Level.SEVERE, null, ex);
         }
         
-        LinkedList<product> prod_total = new LinkedList<product>();
         
-        prod_total.addAll(pchome);
-        prod_total.addAll(momo);
+        
+//        prod_total.addAll(pchome);
+//        prod_total.addAll(momo);
         
         Collections.sort(prod_total);
         
-        total = new LinkedList<>();
         total.offer(prod_total);
         
         try (FileOutputStream fos = new FileOutputStream("result.data");
@@ -366,14 +377,14 @@ public class shoppingparsing extends javax.swing.JFrame {
     }
     
     private Queue<LinkedList<product>> read(String filename) throws FileNotFoundException, IOException, ClassNotFoundException {
-        ObjectInputStream ois = new ObjectInputStream(new FileInputStream(filename));
-        
-        try {
-            return (Queue<LinkedList<product>>) ois.readObject();
+        Queue<LinkedList<product>> queue = null;
+        try (FileInputStream fis = new FileInputStream(filename);
+             ObjectInputStream ois = new ObjectInputStream(fis)){
+            queue = (Queue<LinkedList<product>>) ois.readObject();
         } catch(IOException e) {
             e.printStackTrace();
         }
-        return null;
+        return queue;
     }
     
     private void next_btActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_next_btActionPerformed
