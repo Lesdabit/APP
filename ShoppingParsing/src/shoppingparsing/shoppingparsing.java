@@ -60,14 +60,12 @@ import javax.swing.SwingUtilities;
  * @author lesdabit
  */
 class Product implements Comparable<Product>, Serializable{
-        String search;
         String name;
         String img;
         String link;
         int price;
         
         public Product(String search, String name, String img, String link, int price) {
-            this.search = search;
             this.name = name;
             this.img = img;
             this.link = link;
@@ -81,10 +79,7 @@ class Product implements Comparable<Product>, Serializable{
     }
 
 public class shoppingparsing extends javax.swing.JFrame {
-    public static LinkedList<Product> pchome = new LinkedList<>();
-    public static LinkedList<Product> momo = new LinkedList<>();
     public static LinkedList<Product> prod_total = new LinkedList<Product>(); 
-    public static Queue<LinkedList<Product>> total = new LinkedList<>();
     /**
      * Creates new form main
      */
@@ -240,7 +235,6 @@ public class shoppingparsing extends javax.swing.JFrame {
         thread_execute(search, pchome_url, momo_url);
         try {
             showInfo(prod_total, 1);
-            
 //        if(total == null) {
 //            
 //        } else {
@@ -354,32 +348,21 @@ public class shoppingparsing extends javax.swing.JFrame {
             Logger.getLogger(shoppingparsing.class.getName()).log(Level.SEVERE, null, ex);
         }
         
-        
+        Collections.sort(prod_total);
         
 //        prod_total.addAll(pchome);
 //        prod_total.addAll(momo);
         
-        Collections.sort(prod_total);
-        
-        total.offer(prod_total);
-        
-        try (FileOutputStream fos = new FileOutputStream("result.data");
-            ObjectOutputStream os = new ObjectOutputStream(fos)) {
-            
-            os.writeObject(total);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        
-        try {
-            FileWriter fw = new FileWriter("total.txt");
-            for(int i = 0; i < 30; i++) {
-                fw.write("Product " + (i+1) + ": \n" + "Name: " + prod_total.get(i).name + "\nimage: " + prod_total.get(i).img + "\nlink: " + prod_total.get(i).link + "\nprice: "  + prod_total.get(i).price + "\n");
-            } 
-            fw.close();
-        } catch (IOException ex) {
-            Logger.getLogger(shoppingparsing.class.getName()).log(Level.SEVERE, null, ex);
-        }
+//        
+//        total.offer(prod_total);
+//        
+//        try (FileOutputStream fos = new FileOutputStream("result.data");
+//            ObjectOutputStream os = new ObjectOutputStream(fos)) {
+//            
+//            os.writeObject(total);
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
     }
     
     private Queue<LinkedList<Product>> read(String filename) throws FileNotFoundException, IOException, ClassNotFoundException {
@@ -396,32 +379,32 @@ public class shoppingparsing extends javax.swing.JFrame {
     
     private void next_btActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_next_btActionPerformed
         // TODO add your handling code here:
-//        String num_s = page_num.getText();
-//        String[] num_ss = num_s.split("/");
-//        int page = Integer.parseInt(num_ss[0]);
-//        if(page < 3) {
-//            page_num.setText(Integer.toString(page) + "/3");
-//            try {
-//                showInfo(prod_total);
-//            } catch (IOException ex) {
-//                Logger.getLogger(shoppingparsing.class.getName()).log(Level.SEVERE, null, ex);
-//            }
-//        }
+        String num_s = page_num.getText();
+        String[] num_ss = num_s.split("/");
+        int page = Integer.parseInt(num_ss[0]);
+        if(page < 3) {
+            page_num.setText(Integer.toString(page+1) + "/3");
+            try {
+                showInfo(prod_total, page+1);
+            } catch (IOException ex) {
+                Logger.getLogger(shoppingparsing.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        }
     }//GEN-LAST:event_next_btActionPerformed
 
     private void back_btActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_back_btActionPerformed
         // TODO add your handling code here:
-//        String num_s = page_num.getText();
-//        String[] num_ss = num_s.split("/");
-//        int page = Integer.parseInt(num_ss[0]);
-//        if(page > 0) {
-//            page_num.setText(Integer.toString(page) + "/3");
-//            try {
-//                showInfo(prod_total);
-//            } catch (IOException ex) {
-//                Logger.getLogger(shoppingparsing.class.getName()).log(Level.SEVERE, null, ex);
-//            }
-//        }
+        String num_s = page_num.getText();
+        String[] num_ss = num_s.split("/");
+        int page = Integer.parseInt(num_ss[0]);
+        if(page > 1) {
+            page_num.setText(Integer.toString(page-1) + "/3");
+            try {
+                showInfo(prod_total, page-1);
+            } catch (IOException ex) {
+                Logger.getLogger(shoppingparsing.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        }
     }//GEN-LAST:event_back_btActionPerformed
     
     private static String loadAndExecuteJs(String url) throws IOException {
@@ -486,34 +469,6 @@ public class shoppingparsing extends javax.swing.JFrame {
         jScrollPane3.getViewport().add(mainPanel);
         jScrollPane3.repaint();
         
-        
-        next_bt.addActionListener((ActionEvent e) -> {
-            String num_s = page_num.getText();
-            String[] num_ss = num_s.split("/");
-            int page = Integer.parseInt(num_ss[0]);
-            if(page < 3) {
-                page_num.setText(Integer.toString(page+1) + "/3");
-                try {
-                    showInfo(total, page+1);
-                } catch (IOException ex) {
-                    Logger.getLogger(shoppingparsing.class.getName()).log(Level.SEVERE, null, ex);
-                }
-            }
-        });
-        
-        back_bt.addActionListener((ActionEvent e) -> {
-            String num_s = page_num.getText();
-            String[] num_ss = num_s.split("/");
-            int page = Integer.parseInt(num_ss[0]);
-            if(page > 1) {
-                page_num.setText(Integer.toString(page-1) + "/3");
-                try {
-                    showInfo(total, page-1);
-                } catch (IOException ex) {
-                    Logger.getLogger(shoppingparsing.class.getName()).log(Level.SEVERE, null, ex);
-                }
-            }
-        });
     }
     
     /**
