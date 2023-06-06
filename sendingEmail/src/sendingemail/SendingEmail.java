@@ -18,8 +18,8 @@ import java.util.Vector;
  */
 public class SendingEmail {
     final int SMTP_PORT = 25;
-    String smtp_server = "";
-    String my_email_addr = "";
+    String smtp_server = "mailin1.nutn.edu.tw";
+    String my_email_addr = "s10959039@stumail.nutn.edu.tw";
     
     public void sendCommandAndResultCheck(Socket smtp, BufferedReader smtp_in, PrintWriter smtp_out, String command, int success_code) throws IOException {
         smtp_out.print(command + "\r\n");
@@ -45,12 +45,12 @@ public class SendingEmail {
         resultCheck(smtp, smtp_in, smtp_out, 220);
         
         String myname = InetAddress.getLocalHost().getHostName();
-        sendCommandAndResultCheck(smtp, smtp_in, smtp_out, "HELO" + myname, 250);
+        sendCommandAndResultCheck(smtp, smtp_in, smtp_out, "HELO " + myname, 250);
         
-        sendCommandAndResultCheck(smtp, smtp_in, smtp_out, "MAIL FROM:" + my_email_addr, 250);
+        sendCommandAndResultCheck(smtp, smtp_in, smtp_out, "MAIL FROM: " + my_email_addr, 250);
         
         for(int i = 0; i < to.length; i++) {
-            sendCommandAndResultCheck(smtp, smtp_in, smtp_out, "RCPT TO:" + to[i], 250);
+            sendCommandAndResultCheck(smtp, smtp_in, smtp_out, "RCPT TO: " + to[i], 250);
         }
         
         sendCommandAndResultCheck(smtp, smtp_in, smtp_out, "DATA", 354);
@@ -118,9 +118,9 @@ public class SendingEmail {
     }
     
     public void mainproc(String[] args) throws Exception {
-        String usage = "java Mail [-s subject] to-addr ...";
+        String usage = "java SendingEmail [-s subject] to-addr ...";
         String subject = "";
-        Vector to_list = new Vector();
+        Vector<String> to_list = new Vector<>();
         
         for(int i = 0; i < args.length; i++) {
             if("-s".equals(args[i])) {
